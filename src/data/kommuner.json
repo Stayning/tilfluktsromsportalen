@@ -1,0 +1,4422 @@
+[
+  {
+    "name": "Aarborte – Hattfjelldal",
+    "status": "Gyldig",
+    "code": "1826"
+  },
+  {
+    "name": "Agdenes",
+    "status": "Tilbaketrukket",
+    "code": "5016"
+  },
+  {
+    "name": "Agdenes",
+    "status": "Tilbaketrukket",
+    "code": "1622"
+  },
+  {
+    "name": "Alstahaug",
+    "status": "Gyldig",
+    "code": "1820"
+  },
+  {
+    "name": "Alta",
+    "status": "Tilbaketrukket",
+    "code": "5403"
+  },
+  {
+    "name": "Alta",
+    "status": "Tilbaketrukket",
+    "code": "2012"
+  },
+  {
+    "name": "Alta",
+    "status": "Gyldig",
+    "code": "5601"
+  },
+  {
+    "name": "Alvdal",
+    "status": "Tilbaketrukket",
+    "code": "0438"
+  },
+  {
+    "name": "Alvdal",
+    "status": "Gyldig",
+    "code": "3428"
+  },
+  {
+    "name": "Alver",
+    "status": "Gyldig",
+    "code": "4631"
+  },
+  {
+    "name": "Andebu",
+    "status": "Tilbaketrukket",
+    "code": "0719"
+  },
+  {
+    "name": "Andøy",
+    "status": "Gyldig",
+    "code": "1871"
+  },
+  {
+    "name": "Aremark",
+    "status": "Gyldig",
+    "code": "3124"
+  },
+  {
+    "name": "Aremark",
+    "status": "Tilbaketrukket",
+    "code": "3012"
+  },
+  {
+    "name": "Aremark",
+    "status": "Tilbaketrukket",
+    "code": "0118"
+  },
+  {
+    "name": "Arendal",
+    "status": "Gyldig",
+    "code": "4203"
+  },
+  {
+    "name": "Arendal",
+    "status": "Tilbaketrukket",
+    "code": "0903"
+  },
+  {
+    "name": "Arendal",
+    "status": "Tilbaketrukket",
+    "code": "0906"
+  },
+  {
+    "name": "Asker",
+    "status": "Tilbaketrukket",
+    "code": "0220"
+  },
+  {
+    "name": "Asker",
+    "status": "Gyldig",
+    "code": "3203"
+  },
+  {
+    "name": "Asker",
+    "status": "Tilbaketrukket",
+    "code": "3025"
+  },
+  {
+    "name": "Askim",
+    "status": "Tilbaketrukket",
+    "code": "0124"
+  },
+  {
+    "name": "Askvoll",
+    "status": "Gyldig",
+    "code": "4645"
+  },
+  {
+    "name": "Askvoll",
+    "status": "Tilbaketrukket",
+    "code": "1428"
+  },
+  {
+    "name": "Askøy",
+    "status": "Gyldig",
+    "code": "4627"
+  },
+  {
+    "name": "Askøy",
+    "status": "Tilbaketrukket",
+    "code": "1247"
+  },
+  {
+    "name": "Audnedal",
+    "status": "Tilbaketrukket",
+    "code": "1027"
+  },
+  {
+    "name": "Aukra",
+    "status": "Gyldig",
+    "code": "1547"
+  },
+  {
+    "name": "Aure",
+    "status": "Tilbaketrukket",
+    "code": "1569"
+  },
+  {
+    "name": "Aure",
+    "status": "Gyldig",
+    "code": "1576"
+  },
+  {
+    "name": "Aurland",
+    "status": "Gyldig",
+    "code": "4641"
+  },
+  {
+    "name": "Aurland",
+    "status": "Tilbaketrukket",
+    "code": "1421"
+  },
+  {
+    "name": "Aurskog-Høland",
+    "status": "Tilbaketrukket",
+    "code": "0221"
+  },
+  {
+    "name": "Aurskog-Høland",
+    "status": "Tilbaketrukket",
+    "code": "3026"
+  },
+  {
+    "name": "Aurskog-Høland",
+    "status": "Gyldig",
+    "code": "3226"
+  },
+  {
+    "name": "Austevoll",
+    "status": "Tilbaketrukket",
+    "code": "1244"
+  },
+  {
+    "name": "Austevoll",
+    "status": "Gyldig",
+    "code": "4625"
+  },
+  {
+    "name": "Austrheim",
+    "status": "Tilbaketrukket",
+    "code": "1264"
+  },
+  {
+    "name": "Austrheim",
+    "status": "Gyldig",
+    "code": "4632"
+  },
+  {
+    "name": "Averøy",
+    "status": "Gyldig",
+    "code": "1554"
+  },
+  {
+    "name": "Balestrand",
+    "status": "Tilbaketrukket",
+    "code": "1418"
+  },
+  {
+    "name": "Ballangen",
+    "status": "Tilbaketrukket",
+    "code": "1854"
+  },
+  {
+    "name": "Balsfjord",
+    "status": "Gyldig",
+    "code": "5532"
+  },
+  {
+    "name": "Balsfjord",
+    "status": "Tilbaketrukket",
+    "code": "5422"
+  },
+  {
+    "name": "Balsfjord",
+    "status": "Tilbaketrukket",
+    "code": "1933"
+  },
+  {
+    "name": "Bamble",
+    "status": "Tilbaketrukket",
+    "code": "3813"
+  },
+  {
+    "name": "Bamble",
+    "status": "Tilbaketrukket",
+    "code": "0814"
+  },
+  {
+    "name": "Bamble",
+    "status": "Gyldig",
+    "code": "4012"
+  },
+  {
+    "name": "Bardu",
+    "status": "Tilbaketrukket",
+    "code": "5416"
+  },
+  {
+    "name": "Bardu",
+    "status": "Gyldig",
+    "code": "5520"
+  },
+  {
+    "name": "Bardu",
+    "status": "Tilbaketrukket",
+    "code": "1922"
+  },
+  {
+    "name": "Beiarn",
+    "status": "Gyldig",
+    "code": "1839"
+  },
+  {
+    "name": "Berg",
+    "status": "Tilbaketrukket",
+    "code": "1929"
+  },
+  {
+    "name": "Bergen",
+    "status": "Gyldig",
+    "code": "4601"
+  },
+  {
+    "name": "Bergen",
+    "status": "Tilbaketrukket",
+    "code": "1201"
+  },
+  {
+    "name": "Berlevåg",
+    "status": "Tilbaketrukket",
+    "code": "2024"
+  },
+  {
+    "name": "Berlevåg",
+    "status": "Tilbaketrukket",
+    "code": "5440"
+  },
+  {
+    "name": "Berlevåg",
+    "status": "Gyldig",
+    "code": "5630"
+  },
+  {
+    "name": "Bindal",
+    "status": "Gyldig",
+    "code": "1811"
+  },
+  {
+    "name": "Birkenes",
+    "status": "Gyldig",
+    "code": "4216"
+  },
+  {
+    "name": "Birkenes",
+    "status": "Tilbaketrukket",
+    "code": "0928"
+  },
+  {
+    "name": "Bjarkøy",
+    "status": "Tilbaketrukket",
+    "code": "1915"
+  },
+  {
+    "name": "Bjerkreim",
+    "status": "Gyldig",
+    "code": "1114"
+  },
+  {
+    "name": "Bjugn",
+    "status": "Tilbaketrukket",
+    "code": "5017"
+  },
+  {
+    "name": "Bjugn",
+    "status": "Tilbaketrukket",
+    "code": "1627"
+  },
+  {
+    "name": "Bjørnafjorden",
+    "status": "Gyldig",
+    "code": "4624"
+  },
+  {
+    "name": "Bjørnøya",
+    "status": "Tilbaketrukket",
+    "code": "2121"
+  },
+  {
+    "name": "Bodø",
+    "status": "Gyldig",
+    "code": "1804"
+  },
+  {
+    "name": "Bokn",
+    "status": "Gyldig",
+    "code": "1145"
+  },
+  {
+    "name": "Borge",
+    "status": "Tilbaketrukket",
+    "code": "0113"
+  },
+  {
+    "name": "Borre",
+    "status": "Tilbaketrukket",
+    "code": "0717"
+  },
+  {
+    "name": "Bremanger",
+    "status": "Tilbaketrukket",
+    "code": "1438"
+  },
+  {
+    "name": "Bremanger",
+    "status": "Gyldig",
+    "code": "4648"
+  },
+  {
+    "name": "Brunlanes",
+    "status": "Tilbaketrukket",
+    "code": "0726"
+  },
+  {
+    "name": "Brønnøy",
+    "status": "Gyldig",
+    "code": "1813"
+  },
+  {
+    "name": "Bygland",
+    "status": "Gyldig",
+    "code": "4220"
+  },
+  {
+    "name": "Bygland",
+    "status": "Tilbaketrukket",
+    "code": "0938"
+  },
+  {
+    "name": "Bykle",
+    "status": "Gyldig",
+    "code": "4222"
+  },
+  {
+    "name": "Bykle",
+    "status": "Tilbaketrukket",
+    "code": "0941"
+  },
+  {
+    "name": "Båtsfjord",
+    "status": "Tilbaketrukket",
+    "code": "5443"
+  },
+  {
+    "name": "Båtsfjord",
+    "status": "Gyldig",
+    "code": "5632"
+  },
+  {
+    "name": "Båtsfjord",
+    "status": "Tilbaketrukket",
+    "code": "2028"
+  },
+  {
+    "name": "Bærum",
+    "status": "Tilbaketrukket",
+    "code": "0219"
+  },
+  {
+    "name": "Bærum",
+    "status": "Tilbaketrukket",
+    "code": "3024"
+  },
+  {
+    "name": "Bærum",
+    "status": "Gyldig",
+    "code": "3201"
+  },
+  {
+    "name": "Bø i Nordland",
+    "status": "Gyldig",
+    "code": "1867"
+  },
+  {
+    "name": "Bø i Telemark",
+    "status": "Tilbaketrukket",
+    "code": "0821"
+  },
+  {
+    "name": "Bømlo",
+    "status": "Tilbaketrukket",
+    "code": "1219"
+  },
+  {
+    "name": "Bømlo",
+    "status": "Gyldig",
+    "code": "4613"
+  },
+  {
+    "name": "Deatnu - Tana",
+    "status": "Gyldig",
+    "code": "5628"
+  },
+  {
+    "name": "Deatnu – Tana",
+    "status": "Tilbaketrukket",
+    "code": "2025"
+  },
+  {
+    "name": "Deatnu – Tana",
+    "status": "Tilbaketrukket",
+    "code": "5441"
+  },
+  {
+    "name": "Degernes",
+    "status": "Tilbaketrukket",
+    "code": "0129"
+  },
+  {
+    "name": "Divtasvuodna – Tysfjord",
+    "status": "Tilbaketrukket",
+    "code": "1850"
+  },
+  {
+    "name": "Dovre",
+    "status": "Gyldig",
+    "code": "3431"
+  },
+  {
+    "name": "Dovre",
+    "status": "Tilbaketrukket",
+    "code": "0511"
+  },
+  {
+    "name": "Drammen",
+    "status": "Tilbaketrukket",
+    "code": "0602"
+  },
+  {
+    "name": "Drammen",
+    "status": "Tilbaketrukket",
+    "code": "3005"
+  },
+  {
+    "name": "Drammen",
+    "status": "Gyldig",
+    "code": "3301"
+  },
+  {
+    "name": "Drangedal",
+    "status": "Tilbaketrukket",
+    "code": "3815"
+  },
+  {
+    "name": "Drangedal",
+    "status": "Gyldig",
+    "code": "4016"
+  },
+  {
+    "name": "Drangedal",
+    "status": "Tilbaketrukket",
+    "code": "0817"
+  },
+  {
+    "name": "Dyrøy",
+    "status": "Tilbaketrukket",
+    "code": "5420"
+  },
+  {
+    "name": "Dyrøy",
+    "status": "Gyldig",
+    "code": "5528"
+  },
+  {
+    "name": "Dyrøy",
+    "status": "Tilbaketrukket",
+    "code": "1926"
+  },
+  {
+    "name": "Dønna",
+    "status": "Gyldig",
+    "code": "1827"
+  },
+  {
+    "name": "Eid",
+    "status": "Tilbaketrukket",
+    "code": "1443"
+  },
+  {
+    "name": "Eide",
+    "status": "Tilbaketrukket",
+    "code": "1551"
+  },
+  {
+    "name": "Eidfjord",
+    "status": "Tilbaketrukket",
+    "code": "1232"
+  },
+  {
+    "name": "Eidfjord",
+    "status": "Gyldig",
+    "code": "4619"
+  },
+  {
+    "name": "Eidsberg",
+    "status": "Tilbaketrukket",
+    "code": "0125"
+  },
+  {
+    "name": "Eidskog",
+    "status": "Tilbaketrukket",
+    "code": "0420"
+  },
+  {
+    "name": "Eidskog",
+    "status": "Gyldig",
+    "code": "3416"
+  },
+  {
+    "name": "Eidsvoll",
+    "status": "Tilbaketrukket",
+    "code": "3035"
+  },
+  {
+    "name": "Eidsvoll",
+    "status": "Tilbaketrukket",
+    "code": "0237"
+  },
+  {
+    "name": "Eidsvoll",
+    "status": "Gyldig",
+    "code": "3240"
+  },
+  {
+    "name": "Eigersund",
+    "status": "Gyldig",
+    "code": "1101"
+  },
+  {
+    "name": "Elverum",
+    "status": "Tilbaketrukket",
+    "code": "0427"
+  },
+  {
+    "name": "Elverum",
+    "status": "Gyldig",
+    "code": "3420"
+  },
+  {
+    "name": "Enebakk",
+    "status": "Tilbaketrukket",
+    "code": "3028"
+  },
+  {
+    "name": "Enebakk",
+    "status": "Gyldig",
+    "code": "3220"
+  },
+  {
+    "name": "Enebakk",
+    "status": "Tilbaketrukket",
+    "code": "0229"
+  },
+  {
+    "name": "Engerdal",
+    "status": "Gyldig",
+    "code": "3425"
+  },
+  {
+    "name": "Engerdal",
+    "status": "Tilbaketrukket",
+    "code": "0434"
+  },
+  {
+    "name": "Etne",
+    "status": "Tilbaketrukket",
+    "code": "1211"
+  },
+  {
+    "name": "Etne",
+    "status": "Gyldig",
+    "code": "4611"
+  },
+  {
+    "name": "Etnedal",
+    "status": "Gyldig",
+    "code": "3450"
+  },
+  {
+    "name": "Etnedal",
+    "status": "Tilbaketrukket",
+    "code": "0541"
+  },
+  {
+    "name": "Evenes – Evenášši",
+    "status": "Gyldig",
+    "code": "1853"
+  },
+  {
+    "name": "Evje og Hornnes",
+    "status": "Gyldig",
+    "code": "4219"
+  },
+  {
+    "name": "Evje og Hornnes",
+    "status": "Tilbaketrukket",
+    "code": "0937"
+  },
+  {
+    "name": "Farsund",
+    "status": "Gyldig",
+    "code": "4206"
+  },
+  {
+    "name": "Farsund",
+    "status": "Tilbaketrukket",
+    "code": "1003"
+  },
+  {
+    "name": "Fauske – Fuossko",
+    "status": "Gyldig",
+    "code": "1841"
+  },
+  {
+    "name": "Fedje",
+    "status": "Tilbaketrukket",
+    "code": "1265"
+  },
+  {
+    "name": "Fedje",
+    "status": "Gyldig",
+    "code": "4633"
+  },
+  {
+    "name": "Fet",
+    "status": "Tilbaketrukket",
+    "code": "0227"
+  },
+  {
+    "name": "Finnøy",
+    "status": "Tilbaketrukket",
+    "code": "1141"
+  },
+  {
+    "name": "Fitjar",
+    "status": "Gyldig",
+    "code": "4615"
+  },
+  {
+    "name": "Fitjar",
+    "status": "Tilbaketrukket",
+    "code": "1222"
+  },
+  {
+    "name": "Fjaler",
+    "status": "Gyldig",
+    "code": "4646"
+  },
+  {
+    "name": "Fjaler",
+    "status": "Tilbaketrukket",
+    "code": "1429"
+  },
+  {
+    "name": "Fjell",
+    "status": "Tilbaketrukket",
+    "code": "1246"
+  },
+  {
+    "name": "Fjord",
+    "status": "Gyldig",
+    "code": "1578"
+  },
+  {
+    "name": "Flakstad",
+    "status": "Gyldig",
+    "code": "1859"
+  },
+  {
+    "name": "Flatanger",
+    "status": "Tilbaketrukket",
+    "code": "1749"
+  },
+  {
+    "name": "Flatanger",
+    "status": "Gyldig",
+    "code": "5049"
+  },
+  {
+    "name": "Flekkefjord",
+    "status": "Gyldig",
+    "code": "4207"
+  },
+  {
+    "name": "Flekkefjord",
+    "status": "Tilbaketrukket",
+    "code": "1004"
+  },
+  {
+    "name": "Flesberg",
+    "status": "Tilbaketrukket",
+    "code": "0631"
+  },
+  {
+    "name": "Flesberg",
+    "status": "Tilbaketrukket",
+    "code": "3050"
+  },
+  {
+    "name": "Flesberg",
+    "status": "Gyldig",
+    "code": "3334"
+  },
+  {
+    "name": "Flora",
+    "status": "Tilbaketrukket",
+    "code": "1401"
+  },
+  {
+    "name": "Flå",
+    "status": "Tilbaketrukket",
+    "code": "0615"
+  },
+  {
+    "name": "Flå",
+    "status": "Tilbaketrukket",
+    "code": "3039"
+  },
+  {
+    "name": "Flå",
+    "status": "Gyldig",
+    "code": "3320"
+  },
+  {
+    "name": "Folldal",
+    "status": "Gyldig",
+    "code": "3429"
+  },
+  {
+    "name": "Folldal",
+    "status": "Tilbaketrukket",
+    "code": "0439"
+  },
+  {
+    "name": "Forsand",
+    "status": "Tilbaketrukket",
+    "code": "1129"
+  },
+  {
+    "name": "Fosnes",
+    "status": "Tilbaketrukket",
+    "code": "1748"
+  },
+  {
+    "name": "Fosnes",
+    "status": "Tilbaketrukket",
+    "code": "5048"
+  },
+  {
+    "name": "Fredrikstad",
+    "status": "Gyldig",
+    "code": "3107"
+  },
+  {
+    "name": "Fredrikstad",
+    "status": "Tilbaketrukket",
+    "code": "3004"
+  },
+  {
+    "name": "Fredrikstad",
+    "status": "Tilbaketrukket",
+    "code": "0106"
+  },
+  {
+    "name": "Fredrikstad",
+    "status": "Tilbaketrukket",
+    "code": "0103"
+  },
+  {
+    "name": "Frei",
+    "status": "Tilbaketrukket",
+    "code": "1556"
+  },
+  {
+    "name": "Frogn",
+    "status": "Tilbaketrukket",
+    "code": "3022"
+  },
+  {
+    "name": "Frogn",
+    "status": "Tilbaketrukket",
+    "code": "0215"
+  },
+  {
+    "name": "Frogn",
+    "status": "Gyldig",
+    "code": "3214"
+  },
+  {
+    "name": "Froland",
+    "status": "Tilbaketrukket",
+    "code": "0919"
+  },
+  {
+    "name": "Froland",
+    "status": "Gyldig",
+    "code": "4214"
+  },
+  {
+    "name": "Frosta",
+    "status": "Tilbaketrukket",
+    "code": "1717"
+  },
+  {
+    "name": "Frosta",
+    "status": "Gyldig",
+    "code": "5036"
+  },
+  {
+    "name": "Fræna",
+    "status": "Tilbaketrukket",
+    "code": "1548"
+  },
+  {
+    "name": "Frøya",
+    "status": "Tilbaketrukket",
+    "code": "1620"
+  },
+  {
+    "name": "Frøya",
+    "status": "Gyldig",
+    "code": "5014"
+  },
+  {
+    "name": "Fusa",
+    "status": "Tilbaketrukket",
+    "code": "1241"
+  },
+  {
+    "name": "Fyresdal",
+    "status": "Gyldig",
+    "code": "4032"
+  },
+  {
+    "name": "Fyresdal",
+    "status": "Tilbaketrukket",
+    "code": "3823"
+  },
+  {
+    "name": "Fyresdal",
+    "status": "Tilbaketrukket",
+    "code": "0831"
+  },
+  {
+    "name": "Færder",
+    "status": "Tilbaketrukket",
+    "code": "3811"
+  },
+  {
+    "name": "Færder",
+    "status": "Gyldig",
+    "code": "3911"
+  },
+  {
+    "name": "Færder",
+    "status": "Tilbaketrukket",
+    "code": "0729"
+  },
+  {
+    "name": "Førde",
+    "status": "Tilbaketrukket",
+    "code": "1432"
+  },
+  {
+    "name": "Gamvik",
+    "status": "Tilbaketrukket",
+    "code": "2023"
+  },
+  {
+    "name": "Gamvik",
+    "status": "Tilbaketrukket",
+    "code": "5439"
+  },
+  {
+    "name": "Gamvik",
+    "status": "Gyldig",
+    "code": "5626"
+  },
+  {
+    "name": "Gaular",
+    "status": "Tilbaketrukket",
+    "code": "1430"
+  },
+  {
+    "name": "Gausdal",
+    "status": "Tilbaketrukket",
+    "code": "0522"
+  },
+  {
+    "name": "Gausdal",
+    "status": "Gyldig",
+    "code": "3441"
+  },
+  {
+    "name": "Gildeskål",
+    "status": "Gyldig",
+    "code": "1838"
+  },
+  {
+    "name": "Giske",
+    "status": "Gyldig",
+    "code": "1532"
+  },
+  {
+    "name": "Gjemnes",
+    "status": "Gyldig",
+    "code": "1557"
+  },
+  {
+    "name": "Gjerdrum",
+    "status": "Gyldig",
+    "code": "3230"
+  },
+  {
+    "name": "Gjerdrum",
+    "status": "Tilbaketrukket",
+    "code": "3032"
+  },
+  {
+    "name": "Gjerdrum",
+    "status": "Tilbaketrukket",
+    "code": "0234"
+  },
+  {
+    "name": "Gjerstad",
+    "status": "Tilbaketrukket",
+    "code": "0911"
+  },
+  {
+    "name": "Gjerstad",
+    "status": "Gyldig",
+    "code": "4211"
+  },
+  {
+    "name": "Gjesdal",
+    "status": "Gyldig",
+    "code": "1122"
+  },
+  {
+    "name": "Gjøvik",
+    "status": "Gyldig",
+    "code": "3407"
+  },
+  {
+    "name": "Gjøvik",
+    "status": "Tilbaketrukket",
+    "code": "0502"
+  },
+  {
+    "name": "Gloppen",
+    "status": "Tilbaketrukket",
+    "code": "1445"
+  },
+  {
+    "name": "Gloppen",
+    "status": "Gyldig",
+    "code": "4650"
+  },
+  {
+    "name": "Gol",
+    "status": "Gyldig",
+    "code": "3324"
+  },
+  {
+    "name": "Gol",
+    "status": "Tilbaketrukket",
+    "code": "3041"
+  },
+  {
+    "name": "Gol",
+    "status": "Tilbaketrukket",
+    "code": "0617"
+  },
+  {
+    "name": "Gran",
+    "status": "Tilbaketrukket",
+    "code": "0534"
+  },
+  {
+    "name": "Gran",
+    "status": "Gyldig",
+    "code": "3446"
+  },
+  {
+    "name": "Grane",
+    "status": "Gyldig",
+    "code": "1825"
+  },
+  {
+    "name": "Granvin",
+    "status": "Tilbaketrukket",
+    "code": "1234"
+  },
+  {
+    "name": "Gratangen",
+    "status": "Gyldig",
+    "code": "5516"
+  },
+  {
+    "name": "Gratangen",
+    "status": "Tilbaketrukket",
+    "code": "5414"
+  },
+  {
+    "name": "Gratangen",
+    "status": "Tilbaketrukket",
+    "code": "1919"
+  },
+  {
+    "name": "Grimstad",
+    "status": "Gyldig",
+    "code": "4202"
+  },
+  {
+    "name": "Grimstad",
+    "status": "Tilbaketrukket",
+    "code": "0904"
+  },
+  {
+    "name": "Grong",
+    "status": "Gyldig",
+    "code": "5045"
+  },
+  {
+    "name": "Grong",
+    "status": "Tilbaketrukket",
+    "code": "1742"
+  },
+  {
+    "name": "Grue",
+    "status": "Gyldig",
+    "code": "3417"
+  },
+  {
+    "name": "Grue",
+    "status": "Tilbaketrukket",
+    "code": "0423"
+  },
+  {
+    "name": "Gulen",
+    "status": "Tilbaketrukket",
+    "code": "1411"
+  },
+  {
+    "name": "Gulen",
+    "status": "Gyldig",
+    "code": "4635"
+  },
+  {
+    "name": "Guovdageaidnu - Kautokeino",
+    "status": "Gyldig",
+    "code": "5612"
+  },
+  {
+    "name": "Guovdageaidnu – Kautokeino",
+    "status": "Tilbaketrukket",
+    "code": "2011"
+  },
+  {
+    "name": "Guovdageaidnu – Kautokeino",
+    "status": "Tilbaketrukket",
+    "code": "5430"
+  },
+  {
+    "name": "Gáivuotna - Kåfjord - Kaivuono",
+    "status": "Gyldig",
+    "code": "5540"
+  },
+  {
+    "name": "Gáivuotna – Kåfjord – Kaivuono",
+    "status": "Tilbaketrukket",
+    "code": "5426"
+  },
+  {
+    "name": "Gáivuotna – Kåfjord – Kaivuono",
+    "status": "Tilbaketrukket",
+    "code": "1940"
+  },
+  {
+    "name": "Hadsel",
+    "status": "Gyldig",
+    "code": "1866"
+  },
+  {
+    "name": "Halden",
+    "status": "Tilbaketrukket",
+    "code": "3001"
+  },
+  {
+    "name": "Halden",
+    "status": "Gyldig",
+    "code": "3101"
+  },
+  {
+    "name": "Halden",
+    "status": "Tilbaketrukket",
+    "code": "0101"
+  },
+  {
+    "name": "Halsa",
+    "status": "Tilbaketrukket",
+    "code": "1571"
+  },
+  {
+    "name": "Hamar",
+    "status": "Gyldig",
+    "code": "3403"
+  },
+  {
+    "name": "Hamar",
+    "status": "Tilbaketrukket",
+    "code": "0403"
+  },
+  {
+    "name": "Hamar",
+    "status": "Tilbaketrukket",
+    "code": "0401"
+  },
+  {
+    "name": "Hamarøy – Hábmer",
+    "status": "Tilbaketrukket",
+    "code": "1849"
+  },
+  {
+    "name": "Hammerfest",
+    "status": "Tilbaketrukket",
+    "code": "2004"
+  },
+  {
+    "name": "Hammerfest",
+    "status": "Tilbaketrukket",
+    "code": "2001"
+  },
+  {
+    "name": "Hammerfest - Hámmerfeasta",
+    "status": "Gyldig",
+    "code": "5603"
+  },
+  {
+    "name": "Hammerfest – Hámmerfeasta",
+    "status": "Tilbaketrukket",
+    "code": "5406"
+  },
+  {
+    "name": "Haram",
+    "status": "Tilbaketrukket",
+    "code": "1534"
+  },
+  {
+    "name": "Haram",
+    "status": "Gyldig",
+    "code": "1580"
+  },
+  {
+    "name": "Hareid",
+    "status": "Gyldig",
+    "code": "1517"
+  },
+  {
+    "name": "Harstad",
+    "status": "Tilbaketrukket",
+    "code": "1901"
+  },
+  {
+    "name": "Harstad - Hárstták",
+    "status": "Gyldig",
+    "code": "5503"
+  },
+  {
+    "name": "Harstad – Hárstták",
+    "status": "Tilbaketrukket",
+    "code": "5402"
+  },
+  {
+    "name": "Harstad – Hárstták",
+    "status": "Tilbaketrukket",
+    "code": "1903"
+  },
+  {
+    "name": "Hasvik",
+    "status": "Tilbaketrukket",
+    "code": "2015"
+  },
+  {
+    "name": "Hasvik",
+    "status": "Tilbaketrukket",
+    "code": "5433"
+  },
+  {
+    "name": "Hasvik",
+    "status": "Gyldig",
+    "code": "5616"
+  },
+  {
+    "name": "Haugesund",
+    "status": "Gyldig",
+    "code": "1106"
+  },
+  {
+    "name": "Hedrum",
+    "status": "Tilbaketrukket",
+    "code": "0727"
+  },
+  {
+    "name": "Heim",
+    "status": "Gyldig",
+    "code": "5055"
+  },
+  {
+    "name": "Hemne",
+    "status": "Tilbaketrukket",
+    "code": "5011"
+  },
+  {
+    "name": "Hemne",
+    "status": "Tilbaketrukket",
+    "code": "1612"
+  },
+  {
+    "name": "Hemnes",
+    "status": "Gyldig",
+    "code": "1832"
+  },
+  {
+    "name": "Hemsedal",
+    "status": "Tilbaketrukket",
+    "code": "3042"
+  },
+  {
+    "name": "Hemsedal",
+    "status": "Gyldig",
+    "code": "3326"
+  },
+  {
+    "name": "Hemsedal",
+    "status": "Tilbaketrukket",
+    "code": "0618"
+  },
+  {
+    "name": "Herøy i Møre og Romsdal",
+    "status": "Gyldig",
+    "code": "1515"
+  },
+  {
+    "name": "Herøy i Nordland",
+    "status": "Gyldig",
+    "code": "1818"
+  },
+  {
+    "name": "Hisøy",
+    "status": "Tilbaketrukket",
+    "code": "0922"
+  },
+  {
+    "name": "Hitra",
+    "status": "Tilbaketrukket",
+    "code": "5013"
+  },
+  {
+    "name": "Hitra",
+    "status": "Gyldig",
+    "code": "5056"
+  },
+  {
+    "name": "Hitra",
+    "status": "Tilbaketrukket",
+    "code": "1617"
+  },
+  {
+    "name": "Hjartdal",
+    "status": "Gyldig",
+    "code": "4024"
+  },
+  {
+    "name": "Hjartdal",
+    "status": "Tilbaketrukket",
+    "code": "3819"
+  },
+  {
+    "name": "Hjartdal",
+    "status": "Tilbaketrukket",
+    "code": "0827"
+  },
+  {
+    "name": "Hjelmeland",
+    "status": "Gyldig",
+    "code": "1133"
+  },
+  {
+    "name": "Hobøl",
+    "status": "Tilbaketrukket",
+    "code": "0138"
+  },
+  {
+    "name": "Hof",
+    "status": "Tilbaketrukket",
+    "code": "0714"
+  },
+  {
+    "name": "Hol",
+    "status": "Gyldig",
+    "code": "3330"
+  },
+  {
+    "name": "Hol",
+    "status": "Tilbaketrukket",
+    "code": "0620"
+  },
+  {
+    "name": "Hol",
+    "status": "Tilbaketrukket",
+    "code": "3044"
+  },
+  {
+    "name": "Hole",
+    "status": "Gyldig",
+    "code": "3310"
+  },
+  {
+    "name": "Hole",
+    "status": "Tilbaketrukket",
+    "code": "3038"
+  },
+  {
+    "name": "Hole",
+    "status": "Tilbaketrukket",
+    "code": "0612"
+  },
+  {
+    "name": "Holmestrand",
+    "status": "Tilbaketrukket",
+    "code": "3802"
+  },
+  {
+    "name": "Holmestrand",
+    "status": "Tilbaketrukket",
+    "code": "0702"
+  },
+  {
+    "name": "Holmestrand",
+    "status": "Gyldig",
+    "code": "3903"
+  },
+  {
+    "name": "Holmestrand",
+    "status": "Tilbaketrukket",
+    "code": "0715"
+  },
+  {
+    "name": "Holtålen",
+    "status": "Tilbaketrukket",
+    "code": "1644"
+  },
+  {
+    "name": "Holtålen",
+    "status": "Gyldig",
+    "code": "5026"
+  },
+  {
+    "name": "Hopen",
+    "status": "Tilbaketrukket",
+    "code": "2131"
+  },
+  {
+    "name": "Hornindal",
+    "status": "Tilbaketrukket",
+    "code": "1444"
+  },
+  {
+    "name": "Horten",
+    "status": "Tilbaketrukket",
+    "code": "0701"
+  },
+  {
+    "name": "Horten",
+    "status": "Tilbaketrukket",
+    "code": "0703"
+  },
+  {
+    "name": "Horten",
+    "status": "Gyldig",
+    "code": "3901"
+  },
+  {
+    "name": "Horten",
+    "status": "Tilbaketrukket",
+    "code": "3801"
+  },
+  {
+    "name": "Hurdal",
+    "status": "Tilbaketrukket",
+    "code": "0239"
+  },
+  {
+    "name": "Hurdal",
+    "status": "Gyldig",
+    "code": "3242"
+  },
+  {
+    "name": "Hurdal",
+    "status": "Tilbaketrukket",
+    "code": "3037"
+  },
+  {
+    "name": "Hurum",
+    "status": "Tilbaketrukket",
+    "code": "0628"
+  },
+  {
+    "name": "Hustadvika",
+    "status": "Gyldig",
+    "code": "1579"
+  },
+  {
+    "name": "Hvaler",
+    "status": "Tilbaketrukket",
+    "code": "3011"
+  },
+  {
+    "name": "Hvaler",
+    "status": "Gyldig",
+    "code": "3110"
+  },
+  {
+    "name": "Hvaler",
+    "status": "Tilbaketrukket",
+    "code": "0111"
+  },
+  {
+    "name": "Hyllestad",
+    "status": "Gyldig",
+    "code": "4637"
+  },
+  {
+    "name": "Hyllestad",
+    "status": "Tilbaketrukket",
+    "code": "1413"
+  },
+  {
+    "name": "Hábmer – Hamarøy",
+    "status": "Gyldig",
+    "code": "1875"
+  },
+  {
+    "name": "Hå",
+    "status": "Gyldig",
+    "code": "1119"
+  },
+  {
+    "name": "Hægebostad",
+    "status": "Tilbaketrukket",
+    "code": "1034"
+  },
+  {
+    "name": "Hægebostad",
+    "status": "Gyldig",
+    "code": "4226"
+  },
+  {
+    "name": "Høyanger",
+    "status": "Gyldig",
+    "code": "4638"
+  },
+  {
+    "name": "Høyanger",
+    "status": "Tilbaketrukket",
+    "code": "1416"
+  },
+  {
+    "name": "Høylandet",
+    "status": "Tilbaketrukket",
+    "code": "1743"
+  },
+  {
+    "name": "Høylandet",
+    "status": "Gyldig",
+    "code": "5046"
+  },
+  {
+    "name": "Ibestad",
+    "status": "Tilbaketrukket",
+    "code": "5413"
+  },
+  {
+    "name": "Ibestad",
+    "status": "Gyldig",
+    "code": "5514"
+  },
+  {
+    "name": "Ibestad",
+    "status": "Tilbaketrukket",
+    "code": "1917"
+  },
+  {
+    "name": "Inderøy",
+    "status": "Gyldig",
+    "code": "5053"
+  },
+  {
+    "name": "Inderøy",
+    "status": "Tilbaketrukket",
+    "code": "1756"
+  },
+  {
+    "name": "Inderøy",
+    "status": "Tilbaketrukket",
+    "code": "1729"
+  },
+  {
+    "name": "Indre Fosen",
+    "status": "Gyldig",
+    "code": "5054"
+  },
+  {
+    "name": "Indre Østfold",
+    "status": "Tilbaketrukket",
+    "code": "3014"
+  },
+  {
+    "name": "Indre Østfold",
+    "status": "Gyldig",
+    "code": "3118"
+  },
+  {
+    "name": "Iveland",
+    "status": "Gyldig",
+    "code": "4218"
+  },
+  {
+    "name": "Iveland",
+    "status": "Tilbaketrukket",
+    "code": "0935"
+  },
+  {
+    "name": "Jan Mayen",
+    "status": "Gyldig",
+    "code": "2211"
+  },
+  {
+    "name": "Jevnaker",
+    "status": "Gyldig",
+    "code": "3236"
+  },
+  {
+    "name": "Jevnaker",
+    "status": "Tilbaketrukket",
+    "code": "0532"
+  },
+  {
+    "name": "Jevnaker",
+    "status": "Tilbaketrukket",
+    "code": "3053"
+  },
+  {
+    "name": "Jondal",
+    "status": "Tilbaketrukket",
+    "code": "1227"
+  },
+  {
+    "name": "Jølster",
+    "status": "Tilbaketrukket",
+    "code": "1431"
+  },
+  {
+    "name": "Karlsøy",
+    "status": "Tilbaketrukket",
+    "code": "5423"
+  },
+  {
+    "name": "Karlsøy",
+    "status": "Tilbaketrukket",
+    "code": "1936"
+  },
+  {
+    "name": "Karlsøy",
+    "status": "Gyldig",
+    "code": "5534"
+  },
+  {
+    "name": "Karmøy",
+    "status": "Gyldig",
+    "code": "1149"
+  },
+  {
+    "name": "Kinn",
+    "status": "Gyldig",
+    "code": "4602"
+  },
+  {
+    "name": "Klepp",
+    "status": "Gyldig",
+    "code": "1120"
+  },
+  {
+    "name": "Klæbu",
+    "status": "Tilbaketrukket",
+    "code": "5030"
+  },
+  {
+    "name": "Klæbu",
+    "status": "Tilbaketrukket",
+    "code": "1662"
+  },
+  {
+    "name": "Kongsberg",
+    "status": "Tilbaketrukket",
+    "code": "0604"
+  },
+  {
+    "name": "Kongsberg",
+    "status": "Tilbaketrukket",
+    "code": "3006"
+  },
+  {
+    "name": "Kongsberg",
+    "status": "Gyldig",
+    "code": "3303"
+  },
+  {
+    "name": "Kongsvinger",
+    "status": "Tilbaketrukket",
+    "code": "0402"
+  },
+  {
+    "name": "Kongsvinger",
+    "status": "Gyldig",
+    "code": "3401"
+  },
+  {
+    "name": "Kragerø",
+    "status": "Tilbaketrukket",
+    "code": "0815"
+  },
+  {
+    "name": "Kragerø",
+    "status": "Tilbaketrukket",
+    "code": "3814"
+  },
+  {
+    "name": "Kragerø",
+    "status": "Gyldig",
+    "code": "4014"
+  },
+  {
+    "name": "Kristiansand",
+    "status": "Tilbaketrukket",
+    "code": "1001"
+  },
+  {
+    "name": "Kristiansand",
+    "status": "Gyldig",
+    "code": "4204"
+  },
+  {
+    "name": "Kristiansund",
+    "status": "Gyldig",
+    "code": "1505"
+  },
+  {
+    "name": "Kristiansund",
+    "status": "Tilbaketrukket",
+    "code": "1503"
+  },
+  {
+    "name": "Kråkerøy",
+    "status": "Tilbaketrukket",
+    "code": "0133"
+  },
+  {
+    "name": "Krødsherad",
+    "status": "Tilbaketrukket",
+    "code": "0622"
+  },
+  {
+    "name": "Krødsherad",
+    "status": "Gyldig",
+    "code": "3318"
+  },
+  {
+    "name": "Krødsherad",
+    "status": "Tilbaketrukket",
+    "code": "3046"
+  },
+  {
+    "name": "Kvalsund",
+    "status": "Tilbaketrukket",
+    "code": "2017"
+  },
+  {
+    "name": "Kvam",
+    "status": "Gyldig",
+    "code": "4622"
+  },
+  {
+    "name": "Kvam",
+    "status": "Tilbaketrukket",
+    "code": "1238"
+  },
+  {
+    "name": "Kvinesdal",
+    "status": "Gyldig",
+    "code": "4227"
+  },
+  {
+    "name": "Kvinesdal",
+    "status": "Tilbaketrukket",
+    "code": "1037"
+  },
+  {
+    "name": "Kvinnherad",
+    "status": "Tilbaketrukket",
+    "code": "1224"
+  },
+  {
+    "name": "Kvinnherad",
+    "status": "Gyldig",
+    "code": "4617"
+  },
+  {
+    "name": "Kviteseid",
+    "status": "Gyldig",
+    "code": "4028"
+  },
+  {
+    "name": "Kviteseid",
+    "status": "Tilbaketrukket",
+    "code": "3821"
+  },
+  {
+    "name": "Kviteseid",
+    "status": "Tilbaketrukket",
+    "code": "0829"
+  },
+  {
+    "name": "Kvitsøy",
+    "status": "Gyldig",
+    "code": "1144"
+  },
+  {
+    "name": "Kvæfjord",
+    "status": "Gyldig",
+    "code": "5510"
+  },
+  {
+    "name": "Kvæfjord",
+    "status": "Tilbaketrukket",
+    "code": "5411"
+  },
+  {
+    "name": "Kvæfjord",
+    "status": "Tilbaketrukket",
+    "code": "1911"
+  },
+  {
+    "name": "Kvænangen",
+    "status": "Tilbaketrukket",
+    "code": "5429"
+  },
+  {
+    "name": "Kvænangen",
+    "status": "Gyldig",
+    "code": "5546"
+  },
+  {
+    "name": "Kvænangen",
+    "status": "Tilbaketrukket",
+    "code": "1943"
+  },
+  {
+    "name": "Kárášjohka - Karasjok",
+    "status": "Gyldig",
+    "code": "5610"
+  },
+  {
+    "name": "Kárášjohka – Karasjok",
+    "status": "Tilbaketrukket",
+    "code": "2021"
+  },
+  {
+    "name": "Kárášjohka – Karasjok",
+    "status": "Tilbaketrukket",
+    "code": "5437"
+  },
+  {
+    "name": "Lardal",
+    "status": "Tilbaketrukket",
+    "code": "0728"
+  },
+  {
+    "name": "Larvik",
+    "status": "Gyldig",
+    "code": "3909"
+  },
+  {
+    "name": "Larvik",
+    "status": "Tilbaketrukket",
+    "code": "0707"
+  },
+  {
+    "name": "Larvik",
+    "status": "Tilbaketrukket",
+    "code": "0712"
+  },
+  {
+    "name": "Larvik",
+    "status": "Tilbaketrukket",
+    "code": "3805"
+  },
+  {
+    "name": "Larvik",
+    "status": "Tilbaketrukket",
+    "code": "0709"
+  },
+  {
+    "name": "Lebesby",
+    "status": "Gyldig",
+    "code": "5624"
+  },
+  {
+    "name": "Lebesby",
+    "status": "Tilbaketrukket",
+    "code": "2022"
+  },
+  {
+    "name": "Lebesby",
+    "status": "Tilbaketrukket",
+    "code": "5438"
+  },
+  {
+    "name": "Leikanger",
+    "status": "Tilbaketrukket",
+    "code": "1419"
+  },
+  {
+    "name": "Leirfjord",
+    "status": "Gyldig",
+    "code": "1822"
+  },
+  {
+    "name": "Leka",
+    "status": "Tilbaketrukket",
+    "code": "1755"
+  },
+  {
+    "name": "Leka",
+    "status": "Gyldig",
+    "code": "5052"
+  },
+  {
+    "name": "Leksvik",
+    "status": "Tilbaketrukket",
+    "code": "1718"
+  },
+  {
+    "name": "Lenvik",
+    "status": "Tilbaketrukket",
+    "code": "1931"
+  },
+  {
+    "name": "Lesja",
+    "status": "Gyldig",
+    "code": "3432"
+  },
+  {
+    "name": "Lesja",
+    "status": "Tilbaketrukket",
+    "code": "0512"
+  },
+  {
+    "name": "Levanger",
+    "status": "Gyldig",
+    "code": "5037"
+  },
+  {
+    "name": "Levanger",
+    "status": "Tilbaketrukket",
+    "code": "1719"
+  },
+  {
+    "name": "Lier",
+    "status": "Tilbaketrukket",
+    "code": "3049"
+  },
+  {
+    "name": "Lier",
+    "status": "Tilbaketrukket",
+    "code": "0626"
+  },
+  {
+    "name": "Lier",
+    "status": "Gyldig",
+    "code": "3312"
+  },
+  {
+    "name": "Lierne",
+    "status": "Gyldig",
+    "code": "5042"
+  },
+  {
+    "name": "Lierne",
+    "status": "Tilbaketrukket",
+    "code": "1738"
+  },
+  {
+    "name": "Lillehammer",
+    "status": "Tilbaketrukket",
+    "code": "0501"
+  },
+  {
+    "name": "Lillehammer",
+    "status": "Gyldig",
+    "code": "3405"
+  },
+  {
+    "name": "Lillesand",
+    "status": "Tilbaketrukket",
+    "code": "0926"
+  },
+  {
+    "name": "Lillesand",
+    "status": "Gyldig",
+    "code": "4215"
+  },
+  {
+    "name": "Lillestrøm",
+    "status": "Gyldig",
+    "code": "3205"
+  },
+  {
+    "name": "Lillestrøm",
+    "status": "Tilbaketrukket",
+    "code": "3030"
+  },
+  {
+    "name": "Lindesnes",
+    "status": "Gyldig",
+    "code": "4205"
+  },
+  {
+    "name": "Lindesnes",
+    "status": "Tilbaketrukket",
+    "code": "1029"
+  },
+  {
+    "name": "Lindås",
+    "status": "Tilbaketrukket",
+    "code": "1263"
+  },
+  {
+    "name": "Loabák - Lavangen",
+    "status": "Gyldig",
+    "code": "5518"
+  },
+  {
+    "name": "Loabák – Lavangen",
+    "status": "Tilbaketrukket",
+    "code": "5415"
+  },
+  {
+    "name": "Loabák – Lavangen",
+    "status": "Tilbaketrukket",
+    "code": "1920"
+  },
+  {
+    "name": "Lom",
+    "status": "Tilbaketrukket",
+    "code": "0514"
+  },
+  {
+    "name": "Lom",
+    "status": "Gyldig",
+    "code": "3434"
+  },
+  {
+    "name": "Loppa",
+    "status": "Tilbaketrukket",
+    "code": "2014"
+  },
+  {
+    "name": "Loppa",
+    "status": "Gyldig",
+    "code": "5614"
+  },
+  {
+    "name": "Loppa",
+    "status": "Tilbaketrukket",
+    "code": "5432"
+  },
+  {
+    "name": "Lund",
+    "status": "Gyldig",
+    "code": "1112"
+  },
+  {
+    "name": "Lunner",
+    "status": "Tilbaketrukket",
+    "code": "0533"
+  },
+  {
+    "name": "Lunner",
+    "status": "Gyldig",
+    "code": "3234"
+  },
+  {
+    "name": "Lunner",
+    "status": "Tilbaketrukket",
+    "code": "3054"
+  },
+  {
+    "name": "Lurøy",
+    "status": "Gyldig",
+    "code": "1834"
+  },
+  {
+    "name": "Luster",
+    "status": "Gyldig",
+    "code": "4644"
+  },
+  {
+    "name": "Luster",
+    "status": "Tilbaketrukket",
+    "code": "1426"
+  },
+  {
+    "name": "Lyngdal",
+    "status": "Gyldig",
+    "code": "4225"
+  },
+  {
+    "name": "Lyngdal",
+    "status": "Tilbaketrukket",
+    "code": "1032"
+  },
+  {
+    "name": "Lyngen",
+    "status": "Tilbaketrukket",
+    "code": "5424"
+  },
+  {
+    "name": "Lyngen",
+    "status": "Tilbaketrukket",
+    "code": "1938"
+  },
+  {
+    "name": "Lyngen",
+    "status": "Gyldig",
+    "code": "5536"
+  },
+  {
+    "name": "Lærdal",
+    "status": "Tilbaketrukket",
+    "code": "1422"
+  },
+  {
+    "name": "Lærdal",
+    "status": "Gyldig",
+    "code": "4642"
+  },
+  {
+    "name": "Lødingen",
+    "status": "Gyldig",
+    "code": "1851"
+  },
+  {
+    "name": "Lørenskog",
+    "status": "Tilbaketrukket",
+    "code": "3029"
+  },
+  {
+    "name": "Lørenskog",
+    "status": "Gyldig",
+    "code": "3222"
+  },
+  {
+    "name": "Lørenskog",
+    "status": "Tilbaketrukket",
+    "code": "0230"
+  },
+  {
+    "name": "Løten",
+    "status": "Tilbaketrukket",
+    "code": "0415"
+  },
+  {
+    "name": "Løten",
+    "status": "Gyldig",
+    "code": "3412"
+  },
+  {
+    "name": "Malvik",
+    "status": "Tilbaketrukket",
+    "code": "1663"
+  },
+  {
+    "name": "Malvik",
+    "status": "Gyldig",
+    "code": "5031"
+  },
+  {
+    "name": "Mandal",
+    "status": "Tilbaketrukket",
+    "code": "1002"
+  },
+  {
+    "name": "Marker",
+    "status": "Gyldig",
+    "code": "3122"
+  },
+  {
+    "name": "Marker",
+    "status": "Tilbaketrukket",
+    "code": "0119"
+  },
+  {
+    "name": "Marker",
+    "status": "Tilbaketrukket",
+    "code": "3013"
+  },
+  {
+    "name": "Marnardal",
+    "status": "Tilbaketrukket",
+    "code": "1021"
+  },
+  {
+    "name": "Masfjorden",
+    "status": "Gyldig",
+    "code": "4634"
+  },
+  {
+    "name": "Masfjorden",
+    "status": "Tilbaketrukket",
+    "code": "1266"
+  },
+  {
+    "name": "Meland",
+    "status": "Tilbaketrukket",
+    "code": "1256"
+  },
+  {
+    "name": "Meldal",
+    "status": "Tilbaketrukket",
+    "code": "1636"
+  },
+  {
+    "name": "Meldal",
+    "status": "Tilbaketrukket",
+    "code": "5023"
+  },
+  {
+    "name": "Melhus",
+    "status": "Tilbaketrukket",
+    "code": "1653"
+  },
+  {
+    "name": "Melhus",
+    "status": "Gyldig",
+    "code": "5028"
+  },
+  {
+    "name": "Meløy",
+    "status": "Gyldig",
+    "code": "1837"
+  },
+  {
+    "name": "Meråker",
+    "status": "Tilbaketrukket",
+    "code": "1711"
+  },
+  {
+    "name": "Meråker",
+    "status": "Gyldig",
+    "code": "5034"
+  },
+  {
+    "name": "Midsund",
+    "status": "Tilbaketrukket",
+    "code": "1545"
+  },
+  {
+    "name": "Midt-Telemark",
+    "status": "Gyldig",
+    "code": "4020"
+  },
+  {
+    "name": "Midt-Telemark",
+    "status": "Tilbaketrukket",
+    "code": "3817"
+  },
+  {
+    "name": "Midtre Gauldal",
+    "status": "Gyldig",
+    "code": "5027"
+  },
+  {
+    "name": "Midtre Gauldal",
+    "status": "Tilbaketrukket",
+    "code": "1648"
+  },
+  {
+    "name": "Modalen",
+    "status": "Tilbaketrukket",
+    "code": "1252"
+  },
+  {
+    "name": "Modalen",
+    "status": "Gyldig",
+    "code": "4629"
+  },
+  {
+    "name": "Modum",
+    "status": "Tilbaketrukket",
+    "code": "3047"
+  },
+  {
+    "name": "Modum",
+    "status": "Gyldig",
+    "code": "3316"
+  },
+  {
+    "name": "Modum",
+    "status": "Tilbaketrukket",
+    "code": "0623"
+  },
+  {
+    "name": "Moland",
+    "status": "Tilbaketrukket",
+    "code": "0918"
+  },
+  {
+    "name": "Molde",
+    "status": "Tilbaketrukket",
+    "code": "1502"
+  },
+  {
+    "name": "Molde",
+    "status": "Gyldig",
+    "code": "1506"
+  },
+  {
+    "name": "Moskenes",
+    "status": "Gyldig",
+    "code": "1874"
+  },
+  {
+    "name": "Moss",
+    "status": "Tilbaketrukket",
+    "code": "0104"
+  },
+  {
+    "name": "Moss",
+    "status": "Gyldig",
+    "code": "3103"
+  },
+  {
+    "name": "Moss",
+    "status": "Tilbaketrukket",
+    "code": "3002"
+  },
+  {
+    "name": "Mosvik",
+    "status": "Tilbaketrukket",
+    "code": "1723"
+  },
+  {
+    "name": "Målselv",
+    "status": "Tilbaketrukket",
+    "code": "1924"
+  },
+  {
+    "name": "Målselv",
+    "status": "Tilbaketrukket",
+    "code": "5418"
+  },
+  {
+    "name": "Målselv",
+    "status": "Gyldig",
+    "code": "5524"
+  },
+  {
+    "name": "Måsøy",
+    "status": "Gyldig",
+    "code": "5618"
+  },
+  {
+    "name": "Måsøy",
+    "status": "Tilbaketrukket",
+    "code": "2018"
+  },
+  {
+    "name": "Måsøy",
+    "status": "Tilbaketrukket",
+    "code": "5434"
+  },
+  {
+    "name": "Namdalseid",
+    "status": "Tilbaketrukket",
+    "code": "5040"
+  },
+  {
+    "name": "Namdalseid",
+    "status": "Tilbaketrukket",
+    "code": "1725"
+  },
+  {
+    "name": "Namsos",
+    "status": "Tilbaketrukket",
+    "code": "1703"
+  },
+  {
+    "name": "Namsos",
+    "status": "Tilbaketrukket",
+    "code": "5005"
+  },
+  {
+    "name": "Namsos – Nåavmesjenjaelmie",
+    "status": "Gyldig",
+    "code": "5007"
+  },
+  {
+    "name": "Namsskogan",
+    "status": "Tilbaketrukket",
+    "code": "1740"
+  },
+  {
+    "name": "Namsskogan",
+    "status": "Gyldig",
+    "code": "5044"
+  },
+  {
+    "name": "Nannestad",
+    "status": "Tilbaketrukket",
+    "code": "0238"
+  },
+  {
+    "name": "Nannestad",
+    "status": "Tilbaketrukket",
+    "code": "3036"
+  },
+  {
+    "name": "Nannestad",
+    "status": "Gyldig",
+    "code": "3238"
+  },
+  {
+    "name": "Narvik",
+    "status": "Gyldig",
+    "code": "1806"
+  },
+  {
+    "name": "Narvik",
+    "status": "Tilbaketrukket",
+    "code": "1805"
+  },
+  {
+    "name": "Naustdal",
+    "status": "Tilbaketrukket",
+    "code": "1433"
+  },
+  {
+    "name": "Nedre Eiker",
+    "status": "Tilbaketrukket",
+    "code": "0625"
+  },
+  {
+    "name": "Nes",
+    "status": "Gyldig",
+    "code": "3228"
+  },
+  {
+    "name": "Nes (tidligere Nes i Akershus)",
+    "status": "Tilbaketrukket",
+    "code": "3034"
+  },
+  {
+    "name": "Nes i Akershus",
+    "status": "Tilbaketrukket",
+    "code": "0236"
+  },
+  {
+    "name": "Nes i Buskerud",
+    "status": "Tilbaketrukket",
+    "code": "0616"
+  },
+  {
+    "name": "Nesbyen",
+    "status": "Gyldig",
+    "code": "3322"
+  },
+  {
+    "name": "Nesbyen (tidligere Nes i Buskerud)",
+    "status": "Tilbaketrukket",
+    "code": "3040"
+  },
+  {
+    "name": "Nesna",
+    "status": "Gyldig",
+    "code": "1828"
+  },
+  {
+    "name": "Nesodden",
+    "status": "Tilbaketrukket",
+    "code": "0216"
+  },
+  {
+    "name": "Nesodden",
+    "status": "Tilbaketrukket",
+    "code": "3023"
+  },
+  {
+    "name": "Nesodden",
+    "status": "Gyldig",
+    "code": "3212"
+  },
+  {
+    "name": "Nesset",
+    "status": "Tilbaketrukket",
+    "code": "1543"
+  },
+  {
+    "name": "Nissedal",
+    "status": "Tilbaketrukket",
+    "code": "0830"
+  },
+  {
+    "name": "Nissedal",
+    "status": "Gyldig",
+    "code": "4030"
+  },
+  {
+    "name": "Nissedal",
+    "status": "Tilbaketrukket",
+    "code": "3822"
+  },
+  {
+    "name": "Nittedal",
+    "status": "Tilbaketrukket",
+    "code": "3031"
+  },
+  {
+    "name": "Nittedal",
+    "status": "Gyldig",
+    "code": "3232"
+  },
+  {
+    "name": "Nittedal",
+    "status": "Tilbaketrukket",
+    "code": "0233"
+  },
+  {
+    "name": "Nome",
+    "status": "Gyldig",
+    "code": "4018"
+  },
+  {
+    "name": "Nome",
+    "status": "Tilbaketrukket",
+    "code": "3816"
+  },
+  {
+    "name": "Nome",
+    "status": "Tilbaketrukket",
+    "code": "0819"
+  },
+  {
+    "name": "Nord-Aurdal",
+    "status": "Gyldig",
+    "code": "3451"
+  },
+  {
+    "name": "Nord-Aurdal",
+    "status": "Tilbaketrukket",
+    "code": "0542"
+  },
+  {
+    "name": "Nord-Fron",
+    "status": "Gyldig",
+    "code": "3436"
+  },
+  {
+    "name": "Nord-Fron",
+    "status": "Tilbaketrukket",
+    "code": "0516"
+  },
+  {
+    "name": "Nord-Odal",
+    "status": "Gyldig",
+    "code": "3414"
+  },
+  {
+    "name": "Nord-Odal",
+    "status": "Tilbaketrukket",
+    "code": "0418"
+  },
+  {
+    "name": "Norddal",
+    "status": "Tilbaketrukket",
+    "code": "1524"
+  },
+  {
+    "name": "Nordkapp",
+    "status": "Tilbaketrukket",
+    "code": "2019"
+  },
+  {
+    "name": "Nordkapp",
+    "status": "Tilbaketrukket",
+    "code": "5435"
+  },
+  {
+    "name": "Nordkapp",
+    "status": "Gyldig",
+    "code": "5620"
+  },
+  {
+    "name": "Nordre Follo",
+    "status": "Gyldig",
+    "code": "3207"
+  },
+  {
+    "name": "Nordre Follo",
+    "status": "Tilbaketrukket",
+    "code": "3020"
+  },
+  {
+    "name": "Nordre Land",
+    "status": "Tilbaketrukket",
+    "code": "0538"
+  },
+  {
+    "name": "Nordre Land",
+    "status": "Gyldig",
+    "code": "3448"
+  },
+  {
+    "name": "Nordreisa - Ráisa - Raisi",
+    "status": "Gyldig",
+    "code": "5544"
+  },
+  {
+    "name": "Nordreisa – Ráisa – Raisi",
+    "status": "Tilbaketrukket",
+    "code": "5428"
+  },
+  {
+    "name": "Nordreisa – Ráisa – Raisi",
+    "status": "Tilbaketrukket",
+    "code": "1942"
+  },
+  {
+    "name": "Nore og Uvdal",
+    "status": "Tilbaketrukket",
+    "code": "0633"
+  },
+  {
+    "name": "Nore og Uvdal",
+    "status": "Tilbaketrukket",
+    "code": "3052"
+  },
+  {
+    "name": "Nore og Uvdal",
+    "status": "Gyldig",
+    "code": "3338"
+  },
+  {
+    "name": "Notodden",
+    "status": "Gyldig",
+    "code": "4005"
+  },
+  {
+    "name": "Notodden",
+    "status": "Tilbaketrukket",
+    "code": "0807"
+  },
+  {
+    "name": "Notodden",
+    "status": "Tilbaketrukket",
+    "code": "3808"
+  },
+  {
+    "name": "Nærøy",
+    "status": "Tilbaketrukket",
+    "code": "5051"
+  },
+  {
+    "name": "Nærøy",
+    "status": "Tilbaketrukket",
+    "code": "1751"
+  },
+  {
+    "name": "Nærøysund",
+    "status": "Gyldig",
+    "code": "5060"
+  },
+  {
+    "name": "Nøtterøy",
+    "status": "Tilbaketrukket",
+    "code": "0722"
+  },
+  {
+    "name": "Odda",
+    "status": "Tilbaketrukket",
+    "code": "1228"
+  },
+  {
+    "name": "Onsøy",
+    "status": "Tilbaketrukket",
+    "code": "0134"
+  },
+  {
+    "name": "Oppdal",
+    "status": "Tilbaketrukket",
+    "code": "1634"
+  },
+  {
+    "name": "Oppdal",
+    "status": "Gyldig",
+    "code": "5021"
+  },
+  {
+    "name": "Oppegård",
+    "status": "Tilbaketrukket",
+    "code": "0217"
+  },
+  {
+    "name": "Orkdal",
+    "status": "Tilbaketrukket",
+    "code": "5024"
+  },
+  {
+    "name": "Orkdal",
+    "status": "Tilbaketrukket",
+    "code": "1638"
+  },
+  {
+    "name": "Orkland",
+    "status": "Gyldig",
+    "code": "5059"
+  },
+  {
+    "name": "Os",
+    "status": "Gyldig",
+    "code": "3430"
+  },
+  {
+    "name": "Os i Hedmark",
+    "status": "Tilbaketrukket",
+    "code": "0441"
+  },
+  {
+    "name": "Os i Hordaland",
+    "status": "Tilbaketrukket",
+    "code": "1243"
+  },
+  {
+    "name": "Osen",
+    "status": "Gyldig",
+    "code": "5020"
+  },
+  {
+    "name": "Osen",
+    "status": "Tilbaketrukket",
+    "code": "1633"
+  },
+  {
+    "name": "Oslo",
+    "status": "Gyldig",
+    "code": "0301"
+  },
+  {
+    "name": "Osterøy",
+    "status": "Gyldig",
+    "code": "4630"
+  },
+  {
+    "name": "Osterøy",
+    "status": "Tilbaketrukket",
+    "code": "1253"
+  },
+  {
+    "name": "Overhalla",
+    "status": "Tilbaketrukket",
+    "code": "1744"
+  },
+  {
+    "name": "Overhalla",
+    "status": "Gyldig",
+    "code": "5047"
+  },
+  {
+    "name": "Porsanger - Porsáŋgu - Porsanki",
+    "status": "Gyldig",
+    "code": "5622"
+  },
+  {
+    "name": "Porsanger – Porsáŋgu – Porsanki",
+    "status": "Tilbaketrukket",
+    "code": "5436"
+  },
+  {
+    "name": "Porsanger – Porsáŋgu – Porsanki",
+    "status": "Tilbaketrukket",
+    "code": "2020"
+  },
+  {
+    "name": "Porsgrunn",
+    "status": "Tilbaketrukket",
+    "code": "3806"
+  },
+  {
+    "name": "Porsgrunn",
+    "status": "Gyldig",
+    "code": "4001"
+  },
+  {
+    "name": "Porsgrunn",
+    "status": "Tilbaketrukket",
+    "code": "0805"
+  },
+  {
+    "name": "Raarvihke – Røyrvik",
+    "status": "Tilbaketrukket",
+    "code": "1739"
+  },
+  {
+    "name": "Raarvikhe – Røyrvik",
+    "status": "Gyldig",
+    "code": "5043"
+  },
+  {
+    "name": "Radøy",
+    "status": "Tilbaketrukket",
+    "code": "1260"
+  },
+  {
+    "name": "Rakkestad",
+    "status": "Gyldig",
+    "code": "3120"
+  },
+  {
+    "name": "Rakkestad",
+    "status": "Tilbaketrukket",
+    "code": "0128"
+  },
+  {
+    "name": "Rakkestad",
+    "status": "Tilbaketrukket",
+    "code": "3016"
+  },
+  {
+    "name": "Ramnes",
+    "status": "Tilbaketrukket",
+    "code": "0718"
+  },
+  {
+    "name": "Rana",
+    "status": "Gyldig",
+    "code": "1833"
+  },
+  {
+    "name": "Randaberg",
+    "status": "Gyldig",
+    "code": "1127"
+  },
+  {
+    "name": "Rauma",
+    "status": "Gyldig",
+    "code": "1539"
+  },
+  {
+    "name": "Re",
+    "status": "Tilbaketrukket",
+    "code": "0716"
+  },
+  {
+    "name": "Rendalen",
+    "status": "Tilbaketrukket",
+    "code": "0432"
+  },
+  {
+    "name": "Rendalen",
+    "status": "Gyldig",
+    "code": "3424"
+  },
+  {
+    "name": "Rennebu",
+    "status": "Gyldig",
+    "code": "5022"
+  },
+  {
+    "name": "Rennebu",
+    "status": "Tilbaketrukket",
+    "code": "1635"
+  },
+  {
+    "name": "Rennesøy",
+    "status": "Tilbaketrukket",
+    "code": "1142"
+  },
+  {
+    "name": "Rindal",
+    "status": "Gyldig",
+    "code": "5061"
+  },
+  {
+    "name": "Rindal",
+    "status": "Tilbaketrukket",
+    "code": "1567"
+  },
+  {
+    "name": "Ringebu",
+    "status": "Gyldig",
+    "code": "3439"
+  },
+  {
+    "name": "Ringebu",
+    "status": "Tilbaketrukket",
+    "code": "0520"
+  },
+  {
+    "name": "Ringerike",
+    "status": "Gyldig",
+    "code": "3305"
+  },
+  {
+    "name": "Ringerike",
+    "status": "Tilbaketrukket",
+    "code": "0605"
+  },
+  {
+    "name": "Ringerike",
+    "status": "Tilbaketrukket",
+    "code": "3007"
+  },
+  {
+    "name": "Ringsaker",
+    "status": "Gyldig",
+    "code": "3411"
+  },
+  {
+    "name": "Ringsaker",
+    "status": "Tilbaketrukket",
+    "code": "0412"
+  },
+  {
+    "name": "Rissa",
+    "status": "Tilbaketrukket",
+    "code": "1624"
+  },
+  {
+    "name": "Risør",
+    "status": "Tilbaketrukket",
+    "code": "0901"
+  },
+  {
+    "name": "Risør",
+    "status": "Gyldig",
+    "code": "4201"
+  },
+  {
+    "name": "Roan",
+    "status": "Tilbaketrukket",
+    "code": "5019"
+  },
+  {
+    "name": "Roan",
+    "status": "Tilbaketrukket",
+    "code": "1632"
+  },
+  {
+    "name": "Rollag",
+    "status": "Tilbaketrukket",
+    "code": "3051"
+  },
+  {
+    "name": "Rollag",
+    "status": "Gyldig",
+    "code": "3336"
+  },
+  {
+    "name": "Rollag",
+    "status": "Tilbaketrukket",
+    "code": "0632"
+  },
+  {
+    "name": "Rolvsøy",
+    "status": "Tilbaketrukket",
+    "code": "0131"
+  },
+  {
+    "name": "Rosse – Røros",
+    "status": "Gyldig",
+    "code": "5025"
+  },
+  {
+    "name": "Rygge",
+    "status": "Tilbaketrukket",
+    "code": "0136"
+  },
+  {
+    "name": "Råde",
+    "status": "Tilbaketrukket",
+    "code": "3017"
+  },
+  {
+    "name": "Råde",
+    "status": "Tilbaketrukket",
+    "code": "0135"
+  },
+  {
+    "name": "Råde",
+    "status": "Gyldig",
+    "code": "3112"
+  },
+  {
+    "name": "Rælingen",
+    "status": "Gyldig",
+    "code": "3224"
+  },
+  {
+    "name": "Rælingen",
+    "status": "Tilbaketrukket",
+    "code": "3027"
+  },
+  {
+    "name": "Rælingen",
+    "status": "Tilbaketrukket",
+    "code": "0228"
+  },
+  {
+    "name": "Rødøy",
+    "status": "Gyldig",
+    "code": "1836"
+  },
+  {
+    "name": "Rømskog",
+    "status": "Tilbaketrukket",
+    "code": "0121"
+  },
+  {
+    "name": "Røros",
+    "status": "Tilbaketrukket",
+    "code": "1640"
+  },
+  {
+    "name": "Røst",
+    "status": "Gyldig",
+    "code": "1856"
+  },
+  {
+    "name": "Røyken",
+    "status": "Tilbaketrukket",
+    "code": "0627"
+  },
+  {
+    "name": "Salangen",
+    "status": "Gyldig",
+    "code": "5522"
+  },
+  {
+    "name": "Salangen",
+    "status": "Tilbaketrukket",
+    "code": "1923"
+  },
+  {
+    "name": "Salangen",
+    "status": "Tilbaketrukket",
+    "code": "5417"
+  },
+  {
+    "name": "Saltdal",
+    "status": "Gyldig",
+    "code": "1840"
+  },
+  {
+    "name": "Samnanger",
+    "status": "Gyldig",
+    "code": "4623"
+  },
+  {
+    "name": "Samnanger",
+    "status": "Tilbaketrukket",
+    "code": "1242"
+  },
+  {
+    "name": "Sande i Møre og Romsdal",
+    "status": "Gyldig",
+    "code": "1514"
+  },
+  {
+    "name": "Sande i Vestfold",
+    "status": "Tilbaketrukket",
+    "code": "0713"
+  },
+  {
+    "name": "Sandefjord",
+    "status": "Tilbaketrukket",
+    "code": "0710"
+  },
+  {
+    "name": "Sandefjord",
+    "status": "Tilbaketrukket",
+    "code": "3804"
+  },
+  {
+    "name": "Sandefjord",
+    "status": "Tilbaketrukket",
+    "code": "0706"
+  },
+  {
+    "name": "Sandefjord",
+    "status": "Gyldig",
+    "code": "3907"
+  },
+  {
+    "name": "Sandnes",
+    "status": "Tilbaketrukket",
+    "code": "1102"
+  },
+  {
+    "name": "Sandnes",
+    "status": "Gyldig",
+    "code": "1108"
+  },
+  {
+    "name": "Sandøy",
+    "status": "Tilbaketrukket",
+    "code": "1546"
+  },
+  {
+    "name": "Sarpsborg",
+    "status": "Tilbaketrukket",
+    "code": "3003"
+  },
+  {
+    "name": "Sarpsborg",
+    "status": "Tilbaketrukket",
+    "code": "0105"
+  },
+  {
+    "name": "Sarpsborg",
+    "status": "Gyldig",
+    "code": "3105"
+  },
+  {
+    "name": "Sarpsborg",
+    "status": "Tilbaketrukket",
+    "code": "0102"
+  },
+  {
+    "name": "Sauda",
+    "status": "Gyldig",
+    "code": "1135"
+  },
+  {
+    "name": "Sauherad",
+    "status": "Tilbaketrukket",
+    "code": "0822"
+  },
+  {
+    "name": "Sel",
+    "status": "Tilbaketrukket",
+    "code": "0517"
+  },
+  {
+    "name": "Sel",
+    "status": "Gyldig",
+    "code": "3437"
+  },
+  {
+    "name": "Selbu",
+    "status": "Tilbaketrukket",
+    "code": "1664"
+  },
+  {
+    "name": "Selbu",
+    "status": "Gyldig",
+    "code": "5032"
+  },
+  {
+    "name": "Selje",
+    "status": "Tilbaketrukket",
+    "code": "1441"
+  },
+  {
+    "name": "Seljord",
+    "status": "Tilbaketrukket",
+    "code": "0828"
+  },
+  {
+    "name": "Seljord",
+    "status": "Gyldig",
+    "code": "4022"
+  },
+  {
+    "name": "Seljord",
+    "status": "Tilbaketrukket",
+    "code": "3820"
+  },
+  {
+    "name": "Sem",
+    "status": "Tilbaketrukket",
+    "code": "0721"
+  },
+  {
+    "name": "Senja",
+    "status": "Tilbaketrukket",
+    "code": "5421"
+  },
+  {
+    "name": "Senja",
+    "status": "Gyldig",
+    "code": "5530"
+  },
+  {
+    "name": "Sigdal",
+    "status": "Tilbaketrukket",
+    "code": "0621"
+  },
+  {
+    "name": "Sigdal",
+    "status": "Tilbaketrukket",
+    "code": "3045"
+  },
+  {
+    "name": "Sigdal",
+    "status": "Gyldig",
+    "code": "3332"
+  },
+  {
+    "name": "Siljan",
+    "status": "Gyldig",
+    "code": "4010"
+  },
+  {
+    "name": "Siljan",
+    "status": "Tilbaketrukket",
+    "code": "3812"
+  },
+  {
+    "name": "Siljan",
+    "status": "Tilbaketrukket",
+    "code": "0811"
+  },
+  {
+    "name": "Sirdal",
+    "status": "Gyldig",
+    "code": "4228"
+  },
+  {
+    "name": "Sirdal",
+    "status": "Tilbaketrukket",
+    "code": "1046"
+  },
+  {
+    "name": "Skaun",
+    "status": "Tilbaketrukket",
+    "code": "1657"
+  },
+  {
+    "name": "Skaun",
+    "status": "Gyldig",
+    "code": "5029"
+  },
+  {
+    "name": "Skedsmo",
+    "status": "Tilbaketrukket",
+    "code": "0231"
+  },
+  {
+    "name": "Ski",
+    "status": "Tilbaketrukket",
+    "code": "0213"
+  },
+  {
+    "name": "Skien",
+    "status": "Tilbaketrukket",
+    "code": "3807"
+  },
+  {
+    "name": "Skien",
+    "status": "Gyldig",
+    "code": "4003"
+  },
+  {
+    "name": "Skien",
+    "status": "Tilbaketrukket",
+    "code": "0806"
+  },
+  {
+    "name": "Skiptvet",
+    "status": "Tilbaketrukket",
+    "code": "3015"
+  },
+  {
+    "name": "Skiptvet",
+    "status": "Tilbaketrukket",
+    "code": "0127"
+  },
+  {
+    "name": "Skiptvet",
+    "status": "Gyldig",
+    "code": "3116"
+  },
+  {
+    "name": "Skjeberg",
+    "status": "Tilbaketrukket",
+    "code": "0115"
+  },
+  {
+    "name": "Skjerstad",
+    "status": "Tilbaketrukket",
+    "code": "1842"
+  },
+  {
+    "name": "Skjervøy",
+    "status": "Tilbaketrukket",
+    "code": "5427"
+  },
+  {
+    "name": "Skjervøy",
+    "status": "Tilbaketrukket",
+    "code": "1941"
+  },
+  {
+    "name": "Skjervøy",
+    "status": "Gyldig",
+    "code": "5542"
+  },
+  {
+    "name": "Skjåk",
+    "status": "Gyldig",
+    "code": "3433"
+  },
+  {
+    "name": "Skjåk",
+    "status": "Tilbaketrukket",
+    "code": "0513"
+  },
+  {
+    "name": "Skodje",
+    "status": "Tilbaketrukket",
+    "code": "1529"
+  },
+  {
+    "name": "Skånland",
+    "status": "Tilbaketrukket",
+    "code": "1913"
+  },
+  {
+    "name": "Smøla",
+    "status": "Gyldig",
+    "code": "1573"
+  },
+  {
+    "name": "Snillfjord",
+    "status": "Tilbaketrukket",
+    "code": "5012"
+  },
+  {
+    "name": "Snillfjord",
+    "status": "Tilbaketrukket",
+    "code": "1613"
+  },
+  {
+    "name": "Snåase – Snåsa",
+    "status": "Gyldig",
+    "code": "5041"
+  },
+  {
+    "name": "Snåase – Snåsa",
+    "status": "Tilbaketrukket",
+    "code": "1736"
+  },
+  {
+    "name": "Sogndal",
+    "status": "Gyldig",
+    "code": "4640"
+  },
+  {
+    "name": "Sogndal",
+    "status": "Tilbaketrukket",
+    "code": "1420"
+  },
+  {
+    "name": "Sokndal",
+    "status": "Gyldig",
+    "code": "1111"
+  },
+  {
+    "name": "Sola",
+    "status": "Gyldig",
+    "code": "1124"
+  },
+  {
+    "name": "Solund",
+    "status": "Gyldig",
+    "code": "4636"
+  },
+  {
+    "name": "Solund",
+    "status": "Tilbaketrukket",
+    "code": "1412"
+  },
+  {
+    "name": "Songdalen",
+    "status": "Tilbaketrukket",
+    "code": "1017"
+  },
+  {
+    "name": "Sortland – Suortá",
+    "status": "Gyldig",
+    "code": "1870"
+  },
+  {
+    "name": "Spitsbergen",
+    "status": "Tilbaketrukket",
+    "code": "2111"
+  },
+  {
+    "name": "Spydeberg",
+    "status": "Tilbaketrukket",
+    "code": "0123"
+  },
+  {
+    "name": "Stad",
+    "status": "Gyldig",
+    "code": "4649"
+  },
+  {
+    "name": "Stange",
+    "status": "Tilbaketrukket",
+    "code": "0417"
+  },
+  {
+    "name": "Stange",
+    "status": "Gyldig",
+    "code": "3413"
+  },
+  {
+    "name": "Stavanger",
+    "status": "Gyldig",
+    "code": "1103"
+  },
+  {
+    "name": "Stavern",
+    "status": "Tilbaketrukket",
+    "code": "0708"
+  },
+  {
+    "name": "Steigen",
+    "status": "Gyldig",
+    "code": "1848"
+  },
+  {
+    "name": "Steinkjer",
+    "status": "Tilbaketrukket",
+    "code": "1702"
+  },
+  {
+    "name": "Steinkjer",
+    "status": "Tilbaketrukket",
+    "code": "5004"
+  },
+  {
+    "name": "Steinkjer",
+    "status": "Gyldig",
+    "code": "5006"
+  },
+  {
+    "name": "Stjørdal",
+    "status": "Gyldig",
+    "code": "5035"
+  },
+  {
+    "name": "Stjørdal",
+    "status": "Tilbaketrukket",
+    "code": "1714"
+  },
+  {
+    "name": "Stokke",
+    "status": "Tilbaketrukket",
+    "code": "0720"
+  },
+  {
+    "name": "Stor-Elvdal",
+    "status": "Gyldig",
+    "code": "3423"
+  },
+  {
+    "name": "Stor-Elvdal",
+    "status": "Tilbaketrukket",
+    "code": "0430"
+  },
+  {
+    "name": "Stord",
+    "status": "Tilbaketrukket",
+    "code": "1221"
+  },
+  {
+    "name": "Stord",
+    "status": "Gyldig",
+    "code": "4614"
+  },
+  {
+    "name": "Stordal",
+    "status": "Tilbaketrukket",
+    "code": "1526"
+  },
+  {
+    "name": "Storfjord - Omasvuotna - Omasvuono",
+    "status": "Gyldig",
+    "code": "5538"
+  },
+  {
+    "name": "Storfjord – Omasvuotna – Omasvuono",
+    "status": "Tilbaketrukket",
+    "code": "5425"
+  },
+  {
+    "name": "Storfjord – Omasvuotna – Omasvuono",
+    "status": "Tilbaketrukket",
+    "code": "1939"
+  },
+  {
+    "name": "Strand",
+    "status": "Gyldig",
+    "code": "1130"
+  },
+  {
+    "name": "Stranda",
+    "status": "Gyldig",
+    "code": "1525"
+  },
+  {
+    "name": "Stryn",
+    "status": "Gyldig",
+    "code": "4651"
+  },
+  {
+    "name": "Stryn",
+    "status": "Tilbaketrukket",
+    "code": "1449"
+  },
+  {
+    "name": "Sula",
+    "status": "Gyldig",
+    "code": "1531"
+  },
+  {
+    "name": "Suldal",
+    "status": "Gyldig",
+    "code": "1134"
+  },
+  {
+    "name": "Sund",
+    "status": "Tilbaketrukket",
+    "code": "1245"
+  },
+  {
+    "name": "Sunndal",
+    "status": "Gyldig",
+    "code": "1563"
+  },
+  {
+    "name": "Sunnfjord",
+    "status": "Gyldig",
+    "code": "4647"
+  },
+  {
+    "name": "Surnadal",
+    "status": "Gyldig",
+    "code": "1566"
+  },
+  {
+    "name": "Svalbard",
+    "status": "Gyldig",
+    "code": "2100"
+  },
+  {
+    "name": "Sveio",
+    "status": "Tilbaketrukket",
+    "code": "1216"
+  },
+  {
+    "name": "Sveio",
+    "status": "Gyldig",
+    "code": "4612"
+  },
+  {
+    "name": "Svelvik",
+    "status": "Tilbaketrukket",
+    "code": "0711"
+  },
+  {
+    "name": "Sykkylven",
+    "status": "Gyldig",
+    "code": "1528"
+  },
+  {
+    "name": "Søgne",
+    "status": "Tilbaketrukket",
+    "code": "1018"
+  },
+  {
+    "name": "Sømna",
+    "status": "Gyldig",
+    "code": "1812"
+  },
+  {
+    "name": "Søndre Land",
+    "status": "Gyldig",
+    "code": "3447"
+  },
+  {
+    "name": "Søndre Land",
+    "status": "Tilbaketrukket",
+    "code": "0536"
+  },
+  {
+    "name": "Sør-Aurdal",
+    "status": "Gyldig",
+    "code": "3449"
+  },
+  {
+    "name": "Sør-Aurdal",
+    "status": "Tilbaketrukket",
+    "code": "0540"
+  },
+  {
+    "name": "Sør-Fron",
+    "status": "Gyldig",
+    "code": "3438"
+  },
+  {
+    "name": "Sør-Fron",
+    "status": "Tilbaketrukket",
+    "code": "0519"
+  },
+  {
+    "name": "Sør-Odal",
+    "status": "Gyldig",
+    "code": "3415"
+  },
+  {
+    "name": "Sør-Odal",
+    "status": "Tilbaketrukket",
+    "code": "0419"
+  },
+  {
+    "name": "Sør-Varanger",
+    "status": "Tilbaketrukket",
+    "code": "2030"
+  },
+  {
+    "name": "Sør-Varanger",
+    "status": "Tilbaketrukket",
+    "code": "5444"
+  },
+  {
+    "name": "Sør-Varanger",
+    "status": "Gyldig",
+    "code": "5605"
+  },
+  {
+    "name": "Sørfold",
+    "status": "Gyldig",
+    "code": "1845"
+  },
+  {
+    "name": "Sørreisa",
+    "status": "Gyldig",
+    "code": "5526"
+  },
+  {
+    "name": "Sørreisa",
+    "status": "Tilbaketrukket",
+    "code": "5419"
+  },
+  {
+    "name": "Sørreisa",
+    "status": "Tilbaketrukket",
+    "code": "1925"
+  },
+  {
+    "name": "Sørum",
+    "status": "Tilbaketrukket",
+    "code": "0226"
+  },
+  {
+    "name": "Sørøysund",
+    "status": "Tilbaketrukket",
+    "code": "2016"
+  },
+  {
+    "name": "Time",
+    "status": "Gyldig",
+    "code": "1121"
+  },
+  {
+    "name": "Tingvoll",
+    "status": "Gyldig",
+    "code": "1560"
+  },
+  {
+    "name": "Tinn",
+    "status": "Gyldig",
+    "code": "4026"
+  },
+  {
+    "name": "Tinn",
+    "status": "Tilbaketrukket",
+    "code": "0826"
+  },
+  {
+    "name": "Tinn",
+    "status": "Tilbaketrukket",
+    "code": "3818"
+  },
+  {
+    "name": "Tjeldsund",
+    "status": "Tilbaketrukket",
+    "code": "1852"
+  },
+  {
+    "name": "Tjeldsund - Dielddanuorri",
+    "status": "Gyldig",
+    "code": "5512"
+  },
+  {
+    "name": "Tjeldsund – Dielddanuorri",
+    "status": "Tilbaketrukket",
+    "code": "5412"
+  },
+  {
+    "name": "Tjølling",
+    "status": "Tilbaketrukket",
+    "code": "0725"
+  },
+  {
+    "name": "Tjøme",
+    "status": "Tilbaketrukket",
+    "code": "0723"
+  },
+  {
+    "name": "Tokke",
+    "status": "Gyldig",
+    "code": "4034"
+  },
+  {
+    "name": "Tokke",
+    "status": "Tilbaketrukket",
+    "code": "3824"
+  },
+  {
+    "name": "Tokke",
+    "status": "Tilbaketrukket",
+    "code": "0833"
+  },
+  {
+    "name": "Tolga",
+    "status": "Tilbaketrukket",
+    "code": "0436"
+  },
+  {
+    "name": "Tolga",
+    "status": "Gyldig",
+    "code": "3426"
+  },
+  {
+    "name": "Torsken",
+    "status": "Tilbaketrukket",
+    "code": "1928"
+  },
+  {
+    "name": "Tranøy",
+    "status": "Tilbaketrukket",
+    "code": "1927"
+  },
+  {
+    "name": "Tromsø",
+    "status": "Tilbaketrukket",
+    "code": "1902"
+  },
+  {
+    "name": "Tromsø",
+    "status": "Gyldig",
+    "code": "5501"
+  },
+  {
+    "name": "Tromsø",
+    "status": "Tilbaketrukket",
+    "code": "5401"
+  },
+  {
+    "name": "Tromøy",
+    "status": "Tilbaketrukket",
+    "code": "0921"
+  },
+  {
+    "name": "Trondheim",
+    "status": "Tilbaketrukket",
+    "code": "1601"
+  },
+  {
+    "name": "Trondheim – Tråante",
+    "status": "Gyldig",
+    "code": "5001"
+  },
+  {
+    "name": "Trysil",
+    "status": "Gyldig",
+    "code": "3421"
+  },
+  {
+    "name": "Trysil",
+    "status": "Tilbaketrukket",
+    "code": "0428"
+  },
+  {
+    "name": "Træna",
+    "status": "Gyldig",
+    "code": "1835"
+  },
+  {
+    "name": "Trøgstad",
+    "status": "Tilbaketrukket",
+    "code": "0122"
+  },
+  {
+    "name": "Tune",
+    "status": "Tilbaketrukket",
+    "code": "0130"
+  },
+  {
+    "name": "Tustna",
+    "status": "Tilbaketrukket",
+    "code": "1572"
+  },
+  {
+    "name": "Tvedestrand",
+    "status": "Tilbaketrukket",
+    "code": "0914"
+  },
+  {
+    "name": "Tvedestrand",
+    "status": "Gyldig",
+    "code": "4213"
+  },
+  {
+    "name": "Tydal",
+    "status": "Tilbaketrukket",
+    "code": "1665"
+  },
+  {
+    "name": "Tydal",
+    "status": "Gyldig",
+    "code": "5033"
+  },
+  {
+    "name": "Tynset",
+    "status": "Gyldig",
+    "code": "3427"
+  },
+  {
+    "name": "Tynset",
+    "status": "Tilbaketrukket",
+    "code": "0437"
+  },
+  {
+    "name": "Tysnes",
+    "status": "Gyldig",
+    "code": "4616"
+  },
+  {
+    "name": "Tysnes",
+    "status": "Tilbaketrukket",
+    "code": "1223"
+  },
+  {
+    "name": "Tysvær",
+    "status": "Gyldig",
+    "code": "1146"
+  },
+  {
+    "name": "Tønsberg",
+    "status": "Gyldig",
+    "code": "3905"
+  },
+  {
+    "name": "Tønsberg",
+    "status": "Tilbaketrukket",
+    "code": "0705"
+  },
+  {
+    "name": "Tønsberg",
+    "status": "Tilbaketrukket",
+    "code": "3803"
+  },
+  {
+    "name": "Tønsberg",
+    "status": "Tilbaketrukket",
+    "code": "0704"
+  },
+  {
+    "name": "Ullensaker",
+    "status": "Tilbaketrukket",
+    "code": "0235"
+  },
+  {
+    "name": "Ullensaker",
+    "status": "Gyldig",
+    "code": "3209"
+  },
+  {
+    "name": "Ullensaker",
+    "status": "Tilbaketrukket",
+    "code": "3033"
+  },
+  {
+    "name": "Ullensvang",
+    "status": "Tilbaketrukket",
+    "code": "1231"
+  },
+  {
+    "name": "Ullensvang",
+    "status": "Gyldig",
+    "code": "4618"
+  },
+  {
+    "name": "Ulstein",
+    "status": "Gyldig",
+    "code": "1516"
+  },
+  {
+    "name": "Ulvik",
+    "status": "Tilbaketrukket",
+    "code": "1233"
+  },
+  {
+    "name": "Ulvik",
+    "status": "Gyldig",
+    "code": "4620"
+  },
+  {
+    "name": "Unjárga - Nesseby",
+    "status": "Gyldig",
+    "code": "5636"
+  },
+  {
+    "name": "Unjárga – Nesseby",
+    "status": "Tilbaketrukket",
+    "code": "5442"
+  },
+  {
+    "name": "Unjárga – Nesseby",
+    "status": "Tilbaketrukket",
+    "code": "2027"
+  },
+  {
+    "name": "Utsira",
+    "status": "Gyldig",
+    "code": "1151"
+  },
+  {
+    "name": "Vadsø",
+    "status": "Tilbaketrukket",
+    "code": "5405"
+  },
+  {
+    "name": "Vadsø",
+    "status": "Gyldig",
+    "code": "5607"
+  },
+  {
+    "name": "Vadsø",
+    "status": "Tilbaketrukket",
+    "code": "2003"
+  },
+  {
+    "name": "Vaksdal",
+    "status": "Gyldig",
+    "code": "4628"
+  },
+  {
+    "name": "Vaksdal",
+    "status": "Tilbaketrukket",
+    "code": "1251"
+  },
+  {
+    "name": "Valle",
+    "status": "Gyldig",
+    "code": "4221"
+  },
+  {
+    "name": "Valle",
+    "status": "Tilbaketrukket",
+    "code": "0940"
+  },
+  {
+    "name": "Vang",
+    "status": "Gyldig",
+    "code": "3454"
+  },
+  {
+    "name": "Vang",
+    "status": "Tilbaketrukket",
+    "code": "0545"
+  },
+  {
+    "name": "Vang",
+    "status": "Tilbaketrukket",
+    "code": "0414"
+  },
+  {
+    "name": "Vanylven",
+    "status": "Gyldig",
+    "code": "1511"
+  },
+  {
+    "name": "Vardø",
+    "status": "Tilbaketrukket",
+    "code": "5404"
+  },
+  {
+    "name": "Vardø",
+    "status": "Tilbaketrukket",
+    "code": "2002"
+  },
+  {
+    "name": "Vardø",
+    "status": "Gyldig",
+    "code": "5634"
+  },
+  {
+    "name": "Varteig",
+    "status": "Tilbaketrukket",
+    "code": "0114"
+  },
+  {
+    "name": "Vefsn",
+    "status": "Gyldig",
+    "code": "1824"
+  },
+  {
+    "name": "Vega",
+    "status": "Gyldig",
+    "code": "1815"
+  },
+  {
+    "name": "Vegårshei",
+    "status": "Tilbaketrukket",
+    "code": "0912"
+  },
+  {
+    "name": "Vegårshei",
+    "status": "Gyldig",
+    "code": "4212"
+  },
+  {
+    "name": "Vennesla",
+    "status": "Gyldig",
+    "code": "4223"
+  },
+  {
+    "name": "Vennesla",
+    "status": "Tilbaketrukket",
+    "code": "1014"
+  },
+  {
+    "name": "Verdal",
+    "status": "Gyldig",
+    "code": "5038"
+  },
+  {
+    "name": "Verdal",
+    "status": "Tilbaketrukket",
+    "code": "1721"
+  },
+  {
+    "name": "Verran",
+    "status": "Tilbaketrukket",
+    "code": "1724"
+  },
+  {
+    "name": "Verran",
+    "status": "Tilbaketrukket",
+    "code": "5039"
+  },
+  {
+    "name": "Vestby",
+    "status": "Gyldig",
+    "code": "3216"
+  },
+  {
+    "name": "Vestby",
+    "status": "Tilbaketrukket",
+    "code": "3019"
+  },
+  {
+    "name": "Vestby",
+    "status": "Tilbaketrukket",
+    "code": "0211"
+  },
+  {
+    "name": "Vestnes",
+    "status": "Gyldig",
+    "code": "1535"
+  },
+  {
+    "name": "Vestre Slidre",
+    "status": "Tilbaketrukket",
+    "code": "0543"
+  },
+  {
+    "name": "Vestre Slidre",
+    "status": "Gyldig",
+    "code": "3452"
+  },
+  {
+    "name": "Vestre Toten",
+    "status": "Gyldig",
+    "code": "3443"
+  },
+  {
+    "name": "Vestre Toten",
+    "status": "Tilbaketrukket",
+    "code": "0529"
+  },
+  {
+    "name": "Vestvågøy",
+    "status": "Gyldig",
+    "code": "1860"
+  },
+  {
+    "name": "Vevelstad",
+    "status": "Gyldig",
+    "code": "1816"
+  },
+  {
+    "name": "Vik",
+    "status": "Gyldig",
+    "code": "4639"
+  },
+  {
+    "name": "Vik",
+    "status": "Tilbaketrukket",
+    "code": "1417"
+  },
+  {
+    "name": "Vikna",
+    "status": "Tilbaketrukket",
+    "code": "1750"
+  },
+  {
+    "name": "Vikna",
+    "status": "Tilbaketrukket",
+    "code": "5050"
+  },
+  {
+    "name": "Vindafjord",
+    "status": "Gyldig",
+    "code": "1160"
+  },
+  {
+    "name": "Vindafjord",
+    "status": "Tilbaketrukket",
+    "code": "1154"
+  },
+  {
+    "name": "Vinje",
+    "status": "Tilbaketrukket",
+    "code": "0834"
+  },
+  {
+    "name": "Vinje",
+    "status": "Tilbaketrukket",
+    "code": "3825"
+  },
+  {
+    "name": "Vinje",
+    "status": "Gyldig",
+    "code": "4036"
+  },
+  {
+    "name": "Volda",
+    "status": "Tilbaketrukket",
+    "code": "1519"
+  },
+  {
+    "name": "Volda",
+    "status": "Gyldig",
+    "code": "1577"
+  },
+  {
+    "name": "Voss",
+    "status": "Gyldig",
+    "code": "4621"
+  },
+  {
+    "name": "Voss",
+    "status": "Tilbaketrukket",
+    "code": "1235"
+  },
+  {
+    "name": "Vågan",
+    "status": "Gyldig",
+    "code": "1865"
+  },
+  {
+    "name": "Vågsøy",
+    "status": "Tilbaketrukket",
+    "code": "1439"
+  },
+  {
+    "name": "Vågå",
+    "status": "Gyldig",
+    "code": "3435"
+  },
+  {
+    "name": "Vågå",
+    "status": "Tilbaketrukket",
+    "code": "0515"
+  },
+  {
+    "name": "Våler",
+    "status": "Gyldig",
+    "code": "3114"
+  },
+  {
+    "name": "Våler i Hedmark",
+    "status": "Tilbaketrukket",
+    "code": "0426"
+  },
+  {
+    "name": "Våler i Innlandet",
+    "status": "Gyldig",
+    "code": "3419"
+  },
+  {
+    "name": "Våler i Viken",
+    "status": "Tilbaketrukket",
+    "code": "3018"
+  },
+  {
+    "name": "Våler i Østfold",
+    "status": "Tilbaketrukket",
+    "code": "0137"
+  },
+  {
+    "name": "Værøy",
+    "status": "Gyldig",
+    "code": "1857"
+  },
+  {
+    "name": "Åfjord",
+    "status": "Gyldig",
+    "code": "5058"
+  },
+  {
+    "name": "Åfjord",
+    "status": "Tilbaketrukket",
+    "code": "1630"
+  },
+  {
+    "name": "Åfjord",
+    "status": "Tilbaketrukket",
+    "code": "5018"
+  },
+  {
+    "name": "Ål",
+    "status": "Gyldig",
+    "code": "3328"
+  },
+  {
+    "name": "Ål",
+    "status": "Tilbaketrukket",
+    "code": "0619"
+  },
+  {
+    "name": "Ål",
+    "status": "Tilbaketrukket",
+    "code": "3043"
+  },
+  {
+    "name": "Ålesund",
+    "status": "Tilbaketrukket",
+    "code": "1507"
+  },
+  {
+    "name": "Ålesund",
+    "status": "Gyldig",
+    "code": "1508"
+  },
+  {
+    "name": "Ålesund",
+    "status": "Tilbaketrukket",
+    "code": "1504"
+  },
+  {
+    "name": "Åmli",
+    "status": "Tilbaketrukket",
+    "code": "0929"
+  },
+  {
+    "name": "Åmli",
+    "status": "Gyldig",
+    "code": "4217"
+  },
+  {
+    "name": "Åmot",
+    "status": "Gyldig",
+    "code": "3422"
+  },
+  {
+    "name": "Åmot",
+    "status": "Tilbaketrukket",
+    "code": "0429"
+  },
+  {
+    "name": "Årdal",
+    "status": "Tilbaketrukket",
+    "code": "1424"
+  },
+  {
+    "name": "Årdal",
+    "status": "Gyldig",
+    "code": "4643"
+  },
+  {
+    "name": "Ås",
+    "status": "Tilbaketrukket",
+    "code": "3021"
+  },
+  {
+    "name": "Ås",
+    "status": "Tilbaketrukket",
+    "code": "0214"
+  },
+  {
+    "name": "Ås",
+    "status": "Gyldig",
+    "code": "3218"
+  },
+  {
+    "name": "Åseral",
+    "status": "Gyldig",
+    "code": "4224"
+  },
+  {
+    "name": "Åseral",
+    "status": "Tilbaketrukket",
+    "code": "1026"
+  },
+  {
+    "name": "Åsnes",
+    "status": "Tilbaketrukket",
+    "code": "0425"
+  },
+  {
+    "name": "Åsnes",
+    "status": "Gyldig",
+    "code": "3418"
+  },
+  {
+    "name": "Øksnes",
+    "status": "Gyldig",
+    "code": "1868"
+  },
+  {
+    "name": "Ølen",
+    "status": "Tilbaketrukket",
+    "code": "1159"
+  },
+  {
+    "name": "Ølen",
+    "status": "Tilbaketrukket",
+    "code": "1214"
+  },
+  {
+    "name": "Ørland",
+    "status": "Tilbaketrukket",
+    "code": "1621"
+  },
+  {
+    "name": "Ørland",
+    "status": "Gyldig",
+    "code": "5057"
+  },
+  {
+    "name": "Ørland",
+    "status": "Tilbaketrukket",
+    "code": "5015"
+  },
+  {
+    "name": "Ørskog",
+    "status": "Tilbaketrukket",
+    "code": "1523"
+  },
+  {
+    "name": "Ørsta",
+    "status": "Gyldig",
+    "code": "1520"
+  },
+  {
+    "name": "Østre Toten",
+    "status": "Gyldig",
+    "code": "3442"
+  },
+  {
+    "name": "Østre Toten",
+    "status": "Tilbaketrukket",
+    "code": "0528"
+  },
+  {
+    "name": "Øvre Eiker",
+    "status": "Tilbaketrukket",
+    "code": "0624"
+  },
+  {
+    "name": "Øvre Eiker",
+    "status": "Tilbaketrukket",
+    "code": "3048"
+  },
+  {
+    "name": "Øvre Eiker",
+    "status": "Gyldig",
+    "code": "3314"
+  },
+  {
+    "name": "Øyer",
+    "status": "Gyldig",
+    "code": "3440"
+  },
+  {
+    "name": "Øyer",
+    "status": "Tilbaketrukket",
+    "code": "0521"
+  },
+  {
+    "name": "Øyestad",
+    "status": "Tilbaketrukket",
+    "code": "0920"
+  },
+  {
+    "name": "Øygarden",
+    "status": "Gyldig",
+    "code": "4626"
+  },
+  {
+    "name": "Øygarden",
+    "status": "Tilbaketrukket",
+    "code": "1259"
+  },
+  {
+    "name": "Øystre Slidre",
+    "status": "Gyldig",
+    "code": "3453"
+  },
+  {
+    "name": "Øystre Slidre",
+    "status": "Tilbaketrukket",
+    "code": "0544"
+  }
+]

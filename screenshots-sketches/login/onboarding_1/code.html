@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shelter Portal - Login</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "primary-hover": "#1068c2",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "surface-light": "#ffffff",
+                        "surface-dark": "#1a2632",
+                        "border-light": "#dbe0e6",
+                        "border-dark": "#2d3b4a",
+                        "text-main": "#111418",
+                        "text-light": "#617589",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .form-checkbox:checked {
+            background-color: #137fec;
+            border-color: #137fec;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark transition-colors duration-200">
+<div class="relative flex h-screen w-full flex-col overflow-hidden">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark px-6 py-3 z-20">
+<div class="flex items-center gap-4 text-text-main dark:text-white">
+<div class="size-8 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">cabin</span>
+</div>
+<h2 class="text-text-main dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Shelter Portal</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-background-light dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-text-main dark:text-white text-sm font-bold leading-normal transition-colors">
+<span class="material-symbols-outlined mr-2 text-[18px]">help</span>
+<span class="truncate">Support</span>
+</button>
+</div>
+</header>
+<div class="flex flex-1 h-full items-center justify-center p-6 relative overflow-y-auto">
+<div class="w-full max-w-[440px] space-y-8 animate-in fade-in zoom-in-95 duration-500">
+<div class="text-center">
+<h2 class="text-2xl font-bold text-text-main dark:text-white mb-2">Welcome Back</h2>
+<p class="text-text-light dark:text-gray-400">Enter your mobile number to receive a login code.</p>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-6 sm:p-8 rounded-xl shadow-sm border border-border-light dark:border-border-dark">
+<form class="flex flex-col gap-6" onsubmit="event.preventDefault();">
+<div class="flex flex-col gap-2">
+<label class="text-text-main dark:text-gray-200 text-sm font-medium leading-normal">Phone Number</label>
+<div class="flex w-full items-stretch rounded-lg shadow-sm">
+<div class="flex items-center justify-center px-3 bg-gray-50 dark:bg-gray-800 border border-r-0 border-border-light dark:border-border-dark rounded-l-lg text-text-light dark:text-gray-400 select-none">
+<span class="material-symbols-outlined text-[20px] mr-2">flag</span>
+<span class="text-sm font-medium">+47</span>
+</div>
+<input class="form-input flex-1 min-w-0 resize-none overflow-hidden rounded-r-lg text-text-main dark:text-white dark:bg-gray-800 focus:ring-2 focus:ring-primary/20 focus:border-primary border border-border-light dark:border-border-dark h-12 px-4 text-base font-normal leading-normal placeholder:text-gray-400" placeholder="900 00 000" type="tel"/>
+</div>
+</div>
+<button class="flex w-full cursor-pointer items-center justify-center rounded-lg h-12 bg-primary hover:bg-primary-hover text-white text-base font-bold leading-normal tracking-[0.015em] shadow-sm transition-all active:scale-[0.98]">
+<span>Request OTP</span>
+<span class="material-symbols-outlined ml-2 text-[20px]">send</span>
+</button>
+</form>
+</div>
+<div class="text-center">
+<p class="text-sm text-text-light dark:text-gray-500">
+                    Having trouble logging in? <a class="font-medium text-text-main dark:text-gray-300 hover:text-primary transition-colors" href="#">Contact Support</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

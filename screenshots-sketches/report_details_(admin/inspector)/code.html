@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Report Details - Read Only</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#137fec",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white font-display min-h-screen flex flex-col">
+<header class="bg-white dark:bg-[#1A2633] border-b border-[#f0f2f4] dark:border-[#2A3B4C] sticky top-0 z-50">
+<div class="px-6 lg:px-10 py-3 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-[#111418] dark:text-white">
+<div class="size-8 text-primary">
+<svg class="w-full h-full" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-tight">ShelterGuard Admin</h2>
+</div>
+<div class="hidden md:flex items-center bg-[#f0f2f4] dark:bg-[#2A3B4C] rounded-lg h-10 px-3 w-64">
+<span class="material-symbols-outlined text-[#617589] dark:text-gray-400 mr-2">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full text-[#111418] dark:text-white placeholder-[#617589]" placeholder="Search reports..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<nav class="hidden lg:flex items-center gap-6">
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">Dashboard</a>
+<a class="text-primary text-sm font-medium" href="#">Reports</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">Shelters</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">Users</a>
+</nav>
+<div class="flex items-center gap-3">
+<button class="relative p-2 rounded-lg hover:bg-[#f0f2f4] dark:hover:bg-[#2A3B4C] text-[#111418] dark:text-white transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border border-white dark:border-[#1A2633]"></span>
+</button>
+<button class="p-2 rounded-lg hover:bg-[#f0f2f4] dark:hover:bg-[#2A3B4C] text-[#111418] dark:text-white transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-9 h-9 rounded-full bg-cover bg-center border border-gray-200 dark:border-gray-700 cursor-pointer" data-alt="User profile picture" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDUO_LnnE8VRF564HDCGPlKWAsI-Dd90F9lEWxkpSxIjTqKOfa3CqeLHsD8pkO8X9w8v__6ZzLUYhoxoaqB-AQ2GrwByRK8WMxdim0SBig1jffoPDt1U9Z9ILcD_K0QwP9Yu4wNbV4ptTwaM4BH4kifeN58tKRnKPWr10B00CAG5KChP2cLqgit13Z-cHE96x0EoLZPOfrRe-RsnM7z-RUlClAJqZvEddo2auJBVePsb_EaR5F2LZAdiRRvZCEouL8hBM8MRfxqSDBa');"></div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1 px-6 lg:px-10 py-8 max-w-[1440px] mx-auto w-full">
+<div class="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-8">
+<div>
+<div class="flex items-center gap-2 mb-2 text-sm text-[#617589] dark:text-gray-400">
+<a class="hover:underline" href="#">Reports</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span>2024-NOR-045</span>
+</div>
+<h1 class="text-3xl lg:text-4xl font-black text-[#111418] dark:text-white tracking-tight mb-2">Report #2024-NOR-045</h1>
+<p class="text-[#617589] dark:text-gray-400">Inspected on Oct 24, 2023 • Oslo Shelter Alpha</p>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<div class="lg:col-span-4 xl:col-span-3 space-y-6">
+<div class="bg-white dark:bg-[#1A2633] rounded-xl p-5 shadow-sm border border-[#f0f2f4] dark:border-[#2A3B4C]">
+<h3 class="text-sm font-bold uppercase tracking-wider text-[#617589] dark:text-gray-400 mb-4">Report Status</h3>
+<div class="flex items-center gap-2 p-3 rounded-lg bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800">
+<span class="material-symbols-outlined text-primary text-[20px]">radio_button_checked</span>
+<span class="text-sm font-bold text-primary">Draft</span>
+</div>
+</div>
+<div class="bg-white dark:bg-[#1A2633] rounded-xl p-5 shadow-sm border border-[#f0f2f4] dark:border-[#2A3B4C]">
+<h3 class="text-sm font-bold uppercase tracking-wider text-[#617589] dark:text-gray-400 mb-4">Details</h3>
+<div class="space-y-4">
+<div class="flex items-start gap-3">
+<div class="p-2 rounded-full bg-blue-50 dark:bg-blue-900/20 text-primary">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div>
+<p class="text-xs text-[#617589] dark:text-gray-400 font-medium">Location</p>
+<p class="text-sm font-semibold text-[#111418] dark:text-white">Bunker 4A, Oslo</p>
+<div class="mt-2 h-24 w-full rounded-lg bg-cover bg-center" data-alt="Map view of Oslo area" data-location="Oslo, Norway" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDFJ3NlUSkopRsztOfM6MKGBXb3PVmHBlL1f9aPHErtbcN6z-EOWUa2Z7e8PumPnVUs9TcdU5EaZjoaJKbMS0QvIAm1v5b_C9vez9q1Jjnl-TUt0Mis9e-VKyg3Wk1XoIb8TEEesQZ-OZzX81V2aYFd4yZ6ih_cBM5cccMpB3jVMLIz1mHiuBtzgkijPix2U5xaixdWH5AYDod7HHIkpMshhhJ9DFG2pngkv47mHZaf7ZDTqJNewbgbh2IEOrwUp8Arfcef3KnFwy69');"></div>
+</div>
+</div>
+<div class="w-full h-px bg-[#f0f2f4] dark:bg-[#2A3B4C]"></div>
+<div class="flex items-center gap-3">
+<div class="p-2 rounded-full bg-blue-50 dark:bg-blue-900/20 text-primary">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</div>
+<div>
+<p class="text-xs text-[#617589] dark:text-gray-400 font-medium">Inspector</p>
+<p class="text-sm font-semibold text-[#111418] dark:text-white">John Doe</p>
+</div>
+</div>
+<div class="w-full h-px bg-[#f0f2f4] dark:bg-[#2A3B4C]"></div>
+<div class="flex items-center gap-3">
+<div class="p-2 rounded-full bg-blue-50 dark:bg-blue-900/20 text-primary">
+<span class="material-symbols-outlined text-[20px]">edit_calendar</span>
+</div>
+<div>
+<p class="text-xs text-[#617589] dark:text-gray-400 font-medium">Last Edited</p>
+<p class="text-sm font-semibold text-[#111418] dark:text-white">Oct 24, 2023 at 14:30</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-3">
+<button class="w-full h-10 rounded-lg border border-[#f0f2f4] dark:border-[#2A3B4C] bg-white dark:bg-[#1A2633] text-[#111418] dark:text-white font-bold text-sm hover:bg-gray-50 dark:hover:bg-[#253341] transition-colors flex items-center justify-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
+                        Download PDF
+                    </button>
+</div>
+</div>
+<div class="lg:col-span-8 xl:col-span-9 space-y-8">
+<section class="bg-white dark:bg-[#1A2633] rounded-xl shadow-sm border border-[#f0f2f4] dark:border-[#2A3B4C] overflow-hidden">
+<div class="px-6 py-4 border-b border-[#f0f2f4] dark:border-[#2A3B4C]">
+<h2 class="text-lg font-bold text-[#111418] dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">assignment</span>
+                            General Conditions
+                        </h2>
+</div>
+<div class="p-6">
+<label class="block text-sm font-medium text-[#111418] dark:text-white mb-2">Executive Summary</label>
+<div class="w-full rounded-lg bg-[#f0f2f4] dark:bg-[#253341] min-h-[80px] text-sm text-[#111418] dark:text-white p-4 leading-relaxed">
+                            Routine maintenance inspection conducted. Overall structural integrity is good, though specific mechanical failures were noted in the blast door assembly.
+                        </div>
+</div>
+</section>
+<section class="bg-white dark:bg-[#1A2633] rounded-xl shadow-sm border border-[#f0f2f4] dark:border-[#2A3B4C] overflow-hidden">
+<div class="px-6 py-4 border-b border-[#f0f2f4] dark:border-[#2A3B4C] flex flex-wrap items-center justify-between gap-4">
+<h2 class="text-lg font-bold text-[#111418] dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">door_front</span>
+                            1. Main Entry Blast Door
+                        </h2>
+<div>
+<span class="px-3 py-1.5 rounded-md text-xs font-bold uppercase tracking-wider bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400 shadow-sm">Fail</span>
+</div>
+</div>
+<div class="p-6 space-y-6">
+<div>
+<label class="block text-sm font-medium text-[#111418] dark:text-white mb-2">Observations &amp; Recommendations</label>
+<div class="w-full rounded-lg bg-white dark:bg-[#2A3B4C] border border-[#d1d5db] dark:border-[#374151] p-3 text-sm text-[#111418] dark:text-white leading-relaxed">
+                            Corrosion detected on the lower hinge assembly. Seal integrity compromised. Immediate maintenance required.
+                        </div>
+</div>
+<div>
+<div class="flex items-center justify-between mb-3">
+<label class="block text-sm font-medium text-[#111418] dark:text-white">Attached Images</label>
+<span class="text-xs font-medium text-[#617589] dark:text-gray-400">3 images</span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+<div class="group relative aspect-square rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Rusted metal hinge detail" class="w-full h-full object-cover" data-alt="Close up of rusted metal hinge" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBNugIUjLP870xRQ0Dwb-puygGbnzEYhaSBZUHYf7zByc3GKdc-AnuvdBrrbZBvOwcSALXeGITekxORCS2TxKfxJW5inp2JWRbkDsJBEUrF1pCj_dNVKqQAbuDXGrDtSpOotWwE81e-PhelGuObS6MD7n0dBAG1MwDuk47w685qycSgBBHDi3NJk7MRxygKZEvvTGUSi_8ite1uZLh620h0NmDk5qwr2rRtgGie6Bj-r3yHfqV38JY1-ge5iG77QzXQf8F6BbgF2Yx"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<button class="p-1.5 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/40 transition-colors">
+<span class="material-symbols-outlined text-[18px]">zoom_in</span>
+</button>
+</div>
+</div>
+<div class="group relative aspect-square rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Door seal cracking" class="w-full h-full object-cover" data-alt="Cracked rubber door seal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVD_pgHHqd_nnPXX9P-EG4lnMYbJx0M47xL9IBabJfKVwdkB2WPFqsUwIYrlLqEkE4BlaVfMcaqmAETz0DIaM-uDZgVIsMNjLet-Sm4UHTbLeHNZ2YJCRwyx1W91JKDkSgZxGqCkMWQL2oOo-2L46zXOEBAIII_XLxlZHfFb9F9hDd5dZ9nm9aRgXnHpKSJTLqwOdVLjSjJhXJrDDn41xyfWhE5Rh1zB3mjVrYEZl0NazQ7i9aNcPG7cwpw1zfO4xrpOUS2kQUwDXW"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<button class="p-1.5 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/40 transition-colors">
+<span class="material-symbols-outlined text-[18px]">zoom_in</span>
+</button>
+</div>
+</div>
+<div class="group relative aspect-square rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Wide shot of blast door" class="w-full h-full object-cover" data-alt="Wide shot of the blast door" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxRK7m0SER3IUPm2uZpoHHQN-jH3G2GDLMVtyDPjVVMiPnPyOdB4oFTUDmFzAtWqDCrZc2QEKVpTqO3Ed4FCeODLMcSe7rbP_vgV7W7HpoeDFEKv-RXi5GJAdFVWIDyAC5CvWNp2OrkIfkKvnb3jZgb9eVUAflJgSppx_rOST_LXJ9OwBQRA42r28nAXqAt8hOBhzlUuEZtJqhZrvn0tIZQ_eU9ZX0hWWm0IVvRhPr9m5_rejlLFlvYa4_YkCuaEDCm0wzHjR2GCVN"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<button class="p-1.5 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/40 transition-colors">
+<span class="material-symbols-outlined text-[18px]">zoom_in</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-white dark:bg-[#1A2633] rounded-xl shadow-sm border border-[#f0f2f4] dark:border-[#2A3B4C] overflow-hidden">
+<div class="px-6 py-4 border-b border-[#f0f2f4] dark:border-[#2A3B4C] flex flex-wrap items-center justify-between gap-4">
+<h2 class="text-lg font-bold text-[#111418] dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">air</span>
+                            2. Air Filtration System
+                        </h2>
+<div>
+<span class="px-3 py-1.5 rounded-md text-xs font-bold uppercase tracking-wider bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 shadow-sm">Pass</span>
+</div>
+</div>
+<div class="p-6 space-y-6">
+<div>
+<label class="block text-sm font-medium text-[#111418] dark:text-white mb-2">Observations &amp; Recommendations</label>
+<div class="w-full rounded-lg bg-white dark:bg-[#2A3B4C] border border-[#d1d5db] dark:border-[#374151] p-3 text-sm text-[#111418] dark:text-white leading-relaxed">
+                            Filters replaced as per schedule. Fan operation normal. No blockages detected.
+                        </div>
+</div>
+<div>
+<div class="flex items-center justify-between mb-3">
+<label class="block text-sm font-medium text-[#111418] dark:text-white">Attached Images</label>
+<span class="text-xs font-medium text-[#617589] dark:text-gray-400">1 image</span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+<div class="group relative aspect-square rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="New air filter installed" class="w-full h-full object-cover" data-alt="Clean white HEPA air filter" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXxdIMFdEVMA6pICps46Wy2h6iuwi8ipECHamfF5hT5H2UMay0iEHyRs2eVjqRkHuAC8ZhP_mYHLI3z9OEiboCkyCneyOgW7LAY9of7U_DoGDba4_0Ya4UqWfu7R47jL15xEDkpWrsiBKpYChiSDxWdR9-ooPNvUElwyUKT1AYcbes_B1TQl1ItnicAuMJg8l4GCKNnp-wicbRFaQ09IOqeOCdv9ap88M89EaA65rECDhMcHYgl98JGsRJkmbmZKd8NilA0hkET-2E"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<button class="p-1.5 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/40 transition-colors">
+<span class="material-symbols-outlined text-[18px]">zoom_in</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+</body></html>

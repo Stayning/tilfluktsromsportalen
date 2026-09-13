@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shelter Ops - Shelter Details</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Public Sans", "Noto Sans", sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            font-size: 20px;
+        }
+        .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1;
+        }
+        .material-symbols-outlined.sm {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white min-h-screen flex flex-col overflow-x-hidden">
+<!-- Navigation Bar -->
+<header class="bg-white dark:bg-[#1a2632] border-b border-[#f0f2f4] dark:border-gray-800 sticky top-0 z-50">
+<div class="px-4 md:px-10 py-3 max-w-[1280px] mx-auto flex items-center justify-between whitespace-nowrap">
+<div class="flex items-center gap-4 text-[#111418] dark:text-white">
+<div class="size-8 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined filled" style="font-size: 32px;">shield</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Shelter Ops</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-[#617589] dark:text-gray-400 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Dashboard</a>
+<a class="text-primary text-sm font-bold leading-normal" href="#">Shelters</a>
+<a class="text-[#617589] dark:text-gray-400 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Reports</a>
+<a class="text-[#617589] dark:text-gray-400 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Users</a>
+</div>
+<div class="flex items-center gap-4">
+<div class="bg-center bg-no-repeat bg-cover rounded-full size-10 border border-gray-200 dark:border-gray-700" data-alt="User profile picture placeholder" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA_DMHUdXWRI4-CdAGB9-8cTaepFLIymCqBwp8vHLvqGP6tJD5AyQ7EajFR7tTEF1HMDbcFs25s-4v4J3uSsFd8UhNlcY7onLXccUKJGztACQ-OKtuVP6OBAANrxTQ8BGX6jd19mmSMDhdzkbwnDyLvDN-ZgX1vqIWKRu0QhlMXcLeuM17v35azjhRt9vASq7-SULcfWSM4k8jGa4YUpsvk9OAmsnMr-uduPfZI5EA4W8k5y6XJ1R6LydVf379-j8XUYmX_DMvJDMYh");'></div>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-1 w-full max-w-[1280px] mx-auto px-4 md:px-10 py-6 md:py-8 flex flex-col gap-6">
+<!-- Breadcrumbs -->
+<nav class="flex flex-wrap gap-2 items-center text-sm">
+<a class="text-[#617589] dark:text-gray-400 hover:text-primary transition-colors font-medium" href="#">Shelters</a>
+<span class="text-[#617589] dark:text-gray-600 material-symbols-outlined sm">chevron_right</span>
+<a class="text-[#617589] dark:text-gray-400 hover:text-primary transition-colors font-medium" href="#">Oslo</a>
+<span class="text-[#617589] dark:text-gray-600 material-symbols-outlined sm">chevron_right</span>
+<span class="text-[#111418] dark:text-white font-medium">Shelter 44-B</span>
+</nav>
+<!-- Page Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h1 class="text-[#111418] dark:text-white text-3xl md:text-4xl font-black leading-tight tracking-[-0.033em]">Shelter 44-B (Oslo Sentrum)</h1>
+<div class="flex items-center gap-2 text-[#617589] dark:text-gray-400">
+<span class="material-symbols-outlined sm">calendar_today</span>
+<p class="text-base font-normal">Last inspection: 12. Oct. 2023</p>
+<span class="w-1 h-1 rounded-full bg-gray-300 dark:bg-gray-600 mx-1"></span>
+<span class="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-sm font-medium bg-emerald-50 dark:bg-emerald-900/20 px-2 py-0.5 rounded">
+<span class="material-symbols-outlined sm filled">check_circle</span> Operational
+                    </span>
+</div>
+</div>
+<button class="flex items-center justify-center gap-2 rounded-lg h-10 px-4 bg-white dark:bg-[#1a2632] border border-[#dbe0e6] dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 text-[#111418] dark:text-white text-sm font-bold shadow-sm transition-colors">
+<span class="material-symbols-outlined sm">edit</span>
+<span>Edit Shelter Info</span>
+</button>
+</div>
+<!-- Master Data Card -->
+<section class="bg-white dark:bg-[#1a2632] rounded-xl border border-[#dbe0e6] dark:border-gray-800 shadow-sm overflow-hidden">
+<div class="flex flex-col lg:flex-row">
+<!-- Shelter Image -->
+<div class="w-full lg:w-1/3 min-h-[240px] lg:min-h-full bg-gray-200 relative group">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="Concrete entrance to public shelter in urban environment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDKoX5uwFIEdgwGCrBC0p_xN3kRSMhCBNAVNZV7q752pTOW4qtG2keq2nyPe0hr4GpjlUilTG-sjJgLexDCIIq7MTTp8cwJ-oht5Ezifxw4SQgLx_HF301vUXaznl9b_4gyC9vKzEoUiRDHrb06CoJKBKtauOe9rV5-nyotq4yJfeDCroZ_1DzeXJdvvgEdyhpoYAbNPg09II83JJKsrNrpCmNM8AGneiTCDfxjHhO8SAp0NQ62GAM9vP95OTeKZOBDBtX1YVDqX0Os");'>
+</div>
+<div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-white text-xs px-2 py-1 rounded flex items-center gap-1">
+<span class="material-symbols-outlined sm">photo_camera</span>
+<span>Primary Entrance</span>
+</div>
+</div>
+<!-- Data Grid -->
+<div class="w-full lg:w-2/3 p-6">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-lg font-bold text-[#111418] dark:text-white">Master Data</h3>
+<div class="text-xs text-[#617589] dark:text-gray-500 flex items-center gap-1">
+<span class="material-symbols-outlined sm">location_on</span>
+<span data-location="Oslo, Norway">Oslo, Norway</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-8">
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Address</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">Storgata 12, 0155 Oslo</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Kommune (ID)</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">Oslo (301)</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Gnr / Bnr</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">12 / 445</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Type</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">Public (Offentlig)</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Year Built</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">1985</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Construction</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">Reinforced Concrete</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Capacity</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">250 persons</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Floor Area</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">180 m²</p>
+</div>
+<div class="flex flex-col gap-1 md:col-span-2">
+<p class="text-[#617589] dark:text-gray-400 text-xs uppercase tracking-wide font-semibold">Regulation</p>
+<p class="text-[#111418] dark:text-white text-sm font-medium">Civil Defense Act §22 (Sivilforsvarsloven)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Reports Section -->
+<section class="flex flex-col gap-4 mt-4">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="flex flex-col gap-1">
+<h2 class="text-2xl font-bold text-[#111418] dark:text-white">Inspection Reports</h2>
+<p class="text-sm text-[#617589] dark:text-gray-400">Manage compliance and maintenance reports.</p>
+</div>
+<div class="flex items-center gap-3">
+<div class="relative hidden sm:block">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 material-symbols-outlined sm">search</span>
+<input class="h-10 pl-9 pr-4 rounded-lg border border-[#dbe0e6] dark:border-gray-700 bg-white dark:bg-[#1a2632] text-sm text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 w-64" placeholder="Search reports..." type="text"/>
+</div>
+<button class="flex items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold shadow-md transition-all">
+<span class="material-symbols-outlined sm">add</span>
+<span class="whitespace-nowrap">New Report</span>
+</button>
+</div>
+</div>
+<!-- Reports Table -->
+<div class="bg-white dark:bg-[#1a2632] rounded-xl border border-[#dbe0e6] dark:border-gray-800 shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-gray-50 dark:bg-gray-800/50 border-b border-[#f0f2f4] dark:border-gray-800">
+<th class="py-4 px-6 text-xs font-semibold uppercase tracking-wide text-[#617589] dark:text-gray-400">Report ID</th>
+<th class="py-4 px-6 text-xs font-semibold uppercase tracking-wide text-[#617589] dark:text-gray-400">Date</th>
+<th class="py-4 px-6 text-xs font-semibold uppercase tracking-wide text-[#617589] dark:text-gray-400">Type</th>
+<th class="py-4 px-6 text-xs font-semibold uppercase tracking-wide text-[#617589] dark:text-gray-400">Inspector</th>
+<th class="py-4 px-6 text-xs font-semibold uppercase tracking-wide text-[#617589] dark:text-gray-400">Status</th>
+<th class="py-4 px-6 text-xs font-semibold uppercase tracking-wide text-[#617589] dark:text-gray-400 text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#f0f2f4] dark:divide-gray-800">
+<!-- Row 1: Draft -->
+<tr class="group hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
+<td class="py-4 px-6">
+<span class="text-[#111418] dark:text-white font-medium">RPT-2024-003</span>
+</td>
+<td class="py-4 px-6">
+<div class="text-[#111418] dark:text-white text-sm">24. Jan. 2024</div>
+</td>
+<td class="py-4 px-6">
+<div class="text-[#111418] dark:text-white text-sm">Ad-hoc Inspection</div>
+</td>
+<td class="py-4 px-6">
+<div class="flex items-center gap-2">
+<div class="size-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 text-xs font-bold">JD</div>
+<span class="text-sm text-[#111418] dark:text-white">John Doe</span>
+</div>
+</td>
+<td class="py-4 px-6">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 border border-blue-100 dark:border-blue-900/50">
+<span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Draft
+                                    </span>
+</td>
+<td class="py-4 px-6 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="text-primary hover:text-primary/80 font-medium text-sm">Edit</button>
+<button class="p-1 rounded text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
+<span class="material-symbols-outlined sm">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Published -->
+<tr class="group hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
+<td class="py-4 px-6">
+<span class="text-[#111418] dark:text-white font-medium">RPT-2023-104</span>
+</td>
+<td class="py-4 px-6">
+<div class="text-[#111418] dark:text-white text-sm">12. Oct. 2023</div>
+</td>
+<td class="py-4 px-6">
+<div class="text-[#111418] dark:text-white text-sm">Annual Maintenance</div>
+</td>
+<td class="py-4 px-6">
+<div class="flex items-center gap-2">
+<div class="size-6 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 text-xs font-bold">AS</div>
+<span class="text-sm text-[#111418] dark:text-white">Anna Solberg</span>
+</div>
+</td>
+<td class="py-4 px-6">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300 border border-emerald-100 dark:border-emerald-900/50">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Published
+                                    </span>
+</td>
+<td class="py-4 px-6 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="text-[#617589] hover:text-[#111418] dark:text-gray-400 dark:hover:text-white font-medium text-sm">View</button>
+<button class="p-1 rounded text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
+<span class="material-symbols-outlined sm">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Archived -->
+<tr class="group hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
+<td class="py-4 px-6">
+<span class="text-[#617589] dark:text-gray-500 font-medium line-through decoration-gray-400">RPT-2022-098</span>
+</td>
+<td class="py-4 px-6">
+<div class="text-[#617589] dark:text-gray-500 text-sm">15. Nov. 2022</div>
+</td>
+<td class="py-4 px-6">
+<div class="text-[#617589] dark:text-gray-500 text-sm">Emergency Check</div>
+</td>
+<td class="py-4 px-6">
+<div class="flex items-center gap-2 opacity-60">
+<div class="size-6 rounded-full bg-gray-200 flex items-center justify-center text-gray-700 text-xs font-bold">JD</div>
+<span class="text-sm text-[#617589] dark:text-gray-500">John Doe</span>
+</div>
+</td>
+<td class="py-4 px-6">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-700">
+<span class="w-1.5 h-1.5 rounded-full bg-gray-400"></span> Archived
+                                    </span>
+</td>
+<td class="py-4 px-6 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="text-[#617589] hover:text-[#111418] dark:text-gray-400 dark:hover:text-white font-medium text-sm">Log</button>
+<button class="p-1 rounded text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
+<span class="material-symbols-outlined sm">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Pagination Footer -->
+<div class="bg-gray-50 dark:bg-gray-800/50 px-6 py-4 border-t border-[#f0f2f4] dark:border-gray-800 flex items-center justify-between">
+<p class="text-xs text-[#617589] dark:text-gray-400">Showing <span class="font-medium text-[#111418] dark:text-white">1-3</span> of <span class="font-medium text-[#111418] dark:text-white">12</span> reports</p>
+<div class="flex items-center gap-2">
+<button class="p-1.5 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-400 cursor-not-allowed">
+<span class="material-symbols-outlined sm">chevron_left</span>
+</button>
+<button class="p-1.5 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-[#111418] dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined sm">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+</body></html>

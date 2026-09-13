@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ShelterOps - Admin/Inspector Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "surface-dark": "#1a2632",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white h-screen flex flex-col overflow-hidden">
+<main class="flex-1 flex flex-col h-full overflow-hidden bg-background-light dark:bg-background-dark relative">
+<header class="h-16 bg-white dark:bg-surface-dark border-b border-[#dbe0e6] dark:border-gray-800 flex items-center justify-between px-6 shrink-0 z-10">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-9" data-alt="Company Logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWHUSadZ7YfEm9MHjiUFKMFkXvEz9tz7IJjx33q6R4FRJuqnhAJ4OSHIiVqz6EOuIv0Betx7dgx4y9Mq8erPOfdRg2_h1RnHJS0EcGXAsY9AXETok_-WXkvVC563qT02-gK7_Y7VMyIFJr2ZxWBoOY6C3sg0qP9vzq7ybpa_4HsAoMUQ29WG3TT1E3TpGu_E9s2vjHP0V-R2qIpY3j6F6KRVv_226ZAyYSDArVdIo1qGJkrNpCfsaTVodY6K6gTIU9lyHSJsUtUiA_");'></div>
+<span class="text-[#111418] dark:text-white text-lg font-bold tracking-tight">ShelterOps</span>
+</div>
+<nav class="hidden md:flex items-center gap-1">
+<a class="px-3 py-2 text-sm font-semibold text-primary rounded-lg bg-primary/10" href="#">Dashboard</a>
+<a class="px-3 py-2 text-sm font-medium text-[#617589] dark:text-gray-400 hover:text-[#111418] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors" href="#">Shelters</a>
+<a class="px-3 py-2 text-sm font-medium text-[#617589] dark:text-gray-400 hover:text-[#111418] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors" href="#">Users</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex items-center gap-2 h-9 px-4 rounded-lg bg-primary hover:bg-blue-600 text-white text-sm font-bold shadow-sm transition-all">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span class="hidden sm:inline">New Report</span>
+</button>
+<div class="h-6 w-px bg-gray-200 dark:bg-gray-700 mx-1"></div>
+<div class="flex items-center gap-3 cursor-pointer group">
+<div class="text-right hidden sm:block">
+<p class="text-xs font-bold dark:text-white leading-tight">Admin User</p>
+<p class="text-[10px] text-gray-500 leading-tight">Administrator</p>
+</div>
+<div class="bg-center bg-no-repeat bg-cover rounded-full size-9 ring-2 ring-transparent group-hover:ring-gray-100 dark:group-hover:ring-gray-700 transition-all" data-alt="User Avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_El4itKgu3xJZ4uXVjvZnHEX35f5EdrDd6MohHJ4TlmAj826q3KbrNfCU1ZeGdf736TQW7-A4IAC4lcDYcHs9P7djVKr_DbKSn1JnpbD_k-nLGLwU5I83BzYJGRMi8Tjviw9dL5Xp_Go7U0Bq67HYjstvBb0qU9T5VULVYLWPP6TLSxtKZ5Ed5tbL-2uMwO6VRedwwUgzYXGuthFNZRWwZ2tvyWQjV1Hp_6OtioqIYS4cjgoeQNOc2H0e5ClUwueTlBYch1d8h1FS");'></div>
+</div>
+</div>
+</header>
+<div class="flex-1 overflow-y-auto overflow-x-hidden p-6 space-y-6">
+<div class="max-w-7xl mx-auto w-full space-y-6">
+<div class="w-full">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-white dark:bg-surface-dark rounded-xl min-h-[160px] shadow-sm relative group" data-alt="Maintenance inspector overviewing a snowy shelter site in Norway" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDrVO8Qw8VuOlFdjUC5fef2aUxvoeA0P_YhKIF_4Xm9dlEeFFEGCGxfscaAQEO_E4PgUIPSndKKNYASkShRodZjalgkdowcwP4u2uWbNuNra5aQj39QrmSC_TLAiT_T7xXqFl4LGjILscM7AwLSaoghQ3hvrl7OeTyLO_ZgPpoZ0Hdu2skdG4EpFtLM0p7-EpuDiAyBJYaAA6Xy3JJfKjgLcQz1QHu7U2wv9909NpybK2zS0z5leA-JWO0PHuSR-AIeytBsVw1KEF2C");'>
+<div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+<div class="flex flex-col p-6 z-10">
+<h2 class="text-white text-3xl font-bold leading-tight">Dashboard</h2>
+<p class="text-gray-200 text-sm font-medium mt-1">Welcome back, Administrator. System status is stable.</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-6">
+<div class="w-full flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<h2 class="text-[#111418] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em]">Recent Reports</h2>
+<a class="text-primary text-sm font-bold hover:underline" href="#">View All</a>
+</div>
+<div class="bg-white dark:bg-surface-dark border border-[#dbe0e6] dark:border-gray-800 rounded-xl overflow-hidden shadow-sm">
+<div class="overflow-x-auto">
+<table class="w-full text-left text-sm text-[#111418] dark:text-gray-300">
+<thead class="bg-gray-50 dark:bg-gray-800/50 border-b border-[#dbe0e6] dark:border-gray-700">
+<tr>
+<th class="px-6 py-4 font-semibold text-gray-500 dark:text-gray-400">Shelter ID</th>
+<th class="px-6 py-4 font-semibold text-gray-500 dark:text-gray-400">Location</th>
+<th class="px-6 py-4 font-semibold text-gray-500 dark:text-gray-400">Date</th>
+<th class="px-6 py-4 font-semibold text-gray-500 dark:text-gray-400">Inspector</th>
+<th class="px-6 py-4 font-semibold text-gray-500 dark:text-gray-400">Status</th>
+<th class="px-6 py-4 font-semibold text-gray-500 dark:text-gray-400 text-right">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-100 dark:divide-gray-800">
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<td class="px-6 py-4 font-medium">SH-1024</td>
+<td class="px-6 py-4">Oslo Central</td>
+<td class="px-6 py-4">24.10.2023</td>
+<td class="px-6 py-4 flex items-center gap-2">
+<div class="size-6 rounded-full bg-gray-200 bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCVgnc7-XngY092A4yEwBPfvfUqr0ob5BYBvDzsytFR0Rk4WSNRjxjW8h4FmyJV0vlukEoBikCu7EJrCm6Pi_ndvuwMph4Oz_UmpKOZ3ts_3R5WwuzVAwJsCAbQB3FCHsLLtJAhKt9jGaiKNzmh5rBr8FtYl1IBtAGfTmtznx4ElTdrkbAYbDsZF3yLHi93Ua9R170hFVIdRl4_eOCCd46GrfDQkeqrjf-8V3QncN3Tv112JdLtpChYOOkKtaaKyb1Wz15ALgRxsT9G')"></div>
+<span>J. Hansen</span>
+</td>
+<td class="px-6 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
+<span class="size-1.5 rounded-full bg-green-600 dark:bg-green-400"></span>
+                                                    Pass
+                                                </span>
+</td>
+<td class="px-6 py-4 text-right">
+<button class="text-gray-400 hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">visibility</span></button>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<td class="px-6 py-4 font-medium">SH-0892</td>
+<td class="px-6 py-4">Bergen North</td>
+<td class="px-6 py-4">23.10.2023</td>
+<td class="px-6 py-4 flex items-center gap-2">
+<div class="size-6 rounded-full bg-gray-200 bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAceCEDFUmGIOevSwYiiuwbccaykkfM_aJpQX34HHsaRdcdeDwIrtxqiJKnqkW1BcZdiBGbnyLnfhcCVFzkpzWqH3qEdJ4pm7VsCUa2_ilEKV-x8RiIkSJ3ZxusaXCRct7dwKUuxQwQ9P7oadVAfb6Ioqx28rD4JXPK09VYXaKIOf_Sp1ZAaOGKSxHGw0Dtg4nsQsGrarYep_Wwjda9hh1ImjcbiX5attS44s5l8Nv_2ouTsGRjQJoygo8bKoIQ6wKkFp-Rr_Xm2eq7')"></div>
+<span>M. Larsen</span>
+</td>
+<td class="px-6 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400">
+<span class="size-1.5 rounded-full bg-red-600 dark:bg-red-400"></span>
+                                                    Fail
+                                                </span>
+</td>
+<td class="px-6 py-4 text-right">
+<button class="text-gray-400 hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">visibility</span></button>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<td class="px-6 py-4 font-medium">SH-1105</td>
+<td class="px-6 py-4">Trondheim Harbor</td>
+<td class="px-6 py-4">22.10.2023</td>
+<td class="px-6 py-4 flex items-center gap-2">
+<div class="size-6 rounded-full bg-gray-200 bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuATMSItKdb_plYYGrDULYkK_BxKyqNsadBDIlS4Q8Kf2jBX7rAL9q89Emv8unjLJsrLXlsjizAxA-iEwHbMtZMliVA_-C72dcAC43nT2IqT35XTpFsXjVRRwUBjaqpF-NFzsMlMwkrD8MG-fP8ZSSksyO-CkNfaF-e4G-2WRDtyiyPTvYWpXPl-tnwuDzjKjyWc26yxlsRgwQxc_acmDBV9gdfXKNYV19Zqn2Ae41wTRdbZwQ8DpgnS5DalfGgN-6KmXXMUYWW_cthx')"></div>
+<span>S. Pedersen</span>
+</td>
+<td class="px-6 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400">
+<span class="size-1.5 rounded-full bg-yellow-600 dark:bg-yellow-400"></span>
+                                                    Maintenance
+                                                </span>
+</td>
+<td class="px-6 py-4 text-right">
+<button class="text-gray-400 hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">visibility</span></button>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<td class="px-6 py-4 font-medium">SH-0551</td>
+<td class="px-6 py-4">Stavanger East</td>
+<td class="px-6 py-4">21.10.2023</td>
+<td class="px-6 py-4 flex items-center gap-2">
+<div class="size-6 rounded-full bg-gray-200 bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAi3Bxc5MazeOPwQ2AhI9zU7f-FxQJJy4uuSyf-q4HJD_k2bBk_Jhsj-hkrVnzII5GsAFY4Q8lhsOLhdbh0nGs1eqykkcpa104mqjic52qiKKycE8mQxg7eHSuSc5GlgeRw5sRycDafonf-03K0_zqIdGVrLx59B_9nznPFXykbHShm1MBRw62Vnw5eXvPO3JOXCE3AymzjWxh0OockU5VsDk2fGhm9GYXjn749xFcvLl24MnZkAtInALbNc93wbcHN_UH2cvkoNNcJ')"></div>
+<span>O. Berg</span>
+</td>
+<td class="px-6 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
+<span class="size-1.5 rounded-full bg-green-600 dark:bg-green-400"></span>
+                                                    Pass
+                                                </span>
+</td>
+<td class="px-6 py-4 text-right">
+<button class="text-gray-400 hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">visibility</span></button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+</body></html>
